@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SFTP.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SYNC_INVL_HR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LOG_SAVE" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SERVER_OS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Linux</Value>
+    </Setting>
+    <Setting Name="FILE_PATTERN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">*</Value>
+    </Setting>
+    <Setting Name="IP_ADDR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">172.16.57.24</Value>
+    </Setting>
+    <Setting Name="PORT_NO" Type="System.String" Scope="User">
+      <Value Profile="(Default)">30100</Value>
+    </Setting>
+    <Setting Name="LOG_IN_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">wos</Value>
+    </Setting>
+    <Setting Name="LOG_IN_PW" Type="System.String" Scope="User">
+      <Value Profile="(Default)">wospilot2023!</Value>
+    </Setting>
+    <Setting Name="SYNC_DIR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\</Value>
+    </Setting>
+    <Setting Name="SYNC_INVL_MIN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="SERVER_FOLDER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">wosonsite</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

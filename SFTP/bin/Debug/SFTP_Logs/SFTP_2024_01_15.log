@@ -1,0 +1,25 @@
+[2024-01-15 오전 10:49:31] Loading...
+[2024-01-15 오전 10:49:31] Loading 완료
+[2024-01-15 오전 10:49:35] 자동 접속 모드 전환
+[2024-01-15 오전 10:49:41] App 강제 종료 !!
+
+[2024-01-15 오후 1:14:55] Loading...
+[2024-01-15 오후 1:14:55] Loading 완료
+[2024-01-15 오후 1:14:58] 자동 접속 모드 전환
+[2024-01-15 오후 1:15:19] 접속 172.16.57.24 ERROR
+[2024-01-15 오후 1:15:19] SFTP_0000: ERROR - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+[2024-01-15 오후 1:15:19] sftp_not_connected 
+[2024-01-15 오후 1:15:19] 접속 종료 172.16.57.24: Offline 
+
+[2024-01-15 오후 1:16:24] App 강제 종료 !!
+
+[2024-01-15 오후 1:18:01] Loading...
+[2024-01-15 오후 1:18:01] Loading 완료
+[2024-01-15 오후 1:18:04] 자동 접속 모드 전환
+[2024-01-15 오후 1:18:25] 접속 172.16.57.24 ERROR
+[2024-01-15 오후 1:18:25] SFTP_0000: ERROR - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+[2024-01-15 오후 1:18:25] sftp_not_connected 
+[2024-01-15 오후 1:18:25] 접속 종료 172.16.57.24: Offline 
+
+[2024-01-15 오후 1:19:11] App 강제 종료 !!
+
