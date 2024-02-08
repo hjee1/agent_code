@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-using System.Collections.Generic;
 using SFTP;
 
 public class KafkaData
@@ -15,9 +13,11 @@ public class KafkaData
     public string sourceType { get; set; }
     public string fileName { get; set; }
     public string fileExtension { get; set; }
+    public string processETL { get; set; }
     public bool csvHeader { get; set; }
     public string csvCustomHeader { get; set; }
     public string csvDelimiter { get; set; }
+    public string csvEncodingType { get; set; }
     public string jsonParseSelectedKey { get; set; }
     public string targetType { get; set; }
     public string targetCatalog { get; set; }

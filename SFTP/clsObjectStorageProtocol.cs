@@ -1,8 +1,10 @@
 ﻿using System;
 using System.IO;
+using System.Threading.Tasks;
 using Amazon;
 using Amazon.Runtime;
 using Amazon.S3;
+using Amazon.S3.Model;
 using Amazon.S3.Transfer;
 
 namespace SFTP
@@ -33,7 +35,26 @@ namespace SFTP
             _s3Client = new AmazonS3Client(credentials, regionEndpoint);
         }
 
+        public bool CheckIfFileExists(string bucketName, string objectKey)
+        {
+            try
+            {
+                var response = _s3Client.GetObjectMetadata(new GetObjectMetadataRequest
+                {
+                    BucketName = bucketName,
+                    Key = objectKey,
+                });
 
+                return true;
+            }
+            catch (AmazonS3Exception e)
+            {
+                if (e.ErrorCode == "NotFound" || e.StatusCode == System.Net.HttpStatusCode.NotFound)
+                    return false;
+                else
+                    throw;
+            }
+        }
 
 
         // Function that connects to the Object Storage
@@ -43,32 +64,31 @@ namespace SFTP
             {
                 this.strErrorDes = "";
 
-                // Assuming MinIO is using HTTPS, change to HTTP if necessary
-                string serviceUrl = $"https://{strHost}:{iPort}";
+                // Check if the MinIO server uses HTTP or HTTPS
+                string protocol = "http"; // Change to "https" if your server uses HTTPS
+                string serviceUrl = $"{protocol}://{strHost}:{iPort}";
 
                 // MinIO-specific configurations
                 var config = new AmazonS3Config
                 {
                     ServiceURL = serviceUrl,
-                    ForcePathStyle = true, // Set to true for MinIO
+                    ForcePathStyle = true,
                     Timeout = TimeSpan.FromSeconds(iTimeout),
-                    UseHttp = serviceUrl.StartsWith("http://") // Use HTTP or HTTPS based on the service URL
+                    UseHttp = protocol.Equals("http")
                 };
 
-                // Create new credentials using the provided access key and secret key
                 var credentials = new BasicAWSCredentials(strUserName, strPassword);
-
-                // Create a new AmazonS3Client with the provided credentials and configuration
                 _s3Client = new AmazonS3Client(credentials, config);
 
                 return true;
             }
             catch (Exception exp)
             {
-                this.strErrorDes = "NILE_Agent: ERROR - " + exp.Message;
+                this.strErrorDes = "NILE_Agent: ERROR - " + exp.ToString(); // Changed to exp.ToString() for more detailed info
                 return false;
             }
         }
+
 
 
 

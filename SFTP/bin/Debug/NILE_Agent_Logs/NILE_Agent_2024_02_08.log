@@ -1,0 +1,1757 @@
+[2024-02-08 오전 7:27:13] System Loading...
+[2024-02-08 오전 7:27:13] System Loading 완료
+[2024-02-08 오전 7:27:13] StartSecTimer was successful
+[2024-02-08 오전 7:27:13] 자동 접속 모드 전환
+[2024-02-08 오전 7:27:13] 접속 127.0.0.1 성공
+[2024-02-08 오전 7:27:14] Uploaded consumed/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:15] Kafka message sent for consumed/.DS_Store
+[2024-02-08 오전 7:27:15] Uploaded consumed/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:15] Kafka message sent for consumed/._.DS_Store
+[2024-02-08 오전 7:27:15] Uploaded consumed/._1GGG.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:16] Kafka message sent for consumed/._1GGG.csv
+[2024-02-08 오전 7:27:16] Uploaded consumed/._2HHH.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:16] Kafka message sent for consumed/._2HHH.csv
+[2024-02-08 오전 7:27:16] Uploaded consumed/._3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:16] Kafka message sent for consumed/._3.csv
+[2024-02-08 오전 7:27:16] Uploaded consumed/._4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:16] Kafka message sent for consumed/._4.csv
+[2024-02-08 오전 7:27:16] Uploaded consumed/._5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:16] Kafka message sent for consumed/._5.csv
+[2024-02-08 오전 7:27:16] Uploaded consumed/._6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:16] Kafka message sent for consumed/._6.csv
+[2024-02-08 오전 7:27:16] Uploaded consumed/._AA.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:16] Kafka message sent for consumed/._AA.csv
+[2024-02-08 오전 7:27:16] Uploaded consumed/._BB.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:17] Kafka message sent for consumed/._BB.csv
+[2024-02-08 오전 7:27:17] Uploaded consumed/._한글.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:17] Kafka message sent for consumed/._한글.csv
+[2024-02-08 오전 7:27:17] Uploaded consumed/1GGG.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:17] Kafka message sent for consumed/1GGG.csv
+[2024-02-08 오전 7:27:17] Uploaded consumed/2HHH.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:17] Kafka message sent for consumed/2HHH.csv
+[2024-02-08 오전 7:27:17] Uploaded consumed/3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:17] Kafka message sent for consumed/3.csv
+[2024-02-08 오전 7:27:17] Uploaded consumed/4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:17] Kafka message sent for consumed/4.csv
+[2024-02-08 오전 7:27:17] Uploaded consumed/5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:17] Kafka message sent for consumed/5.csv
+[2024-02-08 오전 7:27:17] Uploaded consumed/6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:18] Kafka message sent for consumed/6.csv
+[2024-02-08 오전 7:27:18] Uploaded consumed/AA.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:18] Kafka message sent for consumed/AA.csv
+[2024-02-08 오전 7:27:18] Uploaded consumed/BB.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:18] Kafka message sent for consumed/BB.csv
+[2024-02-08 오전 7:27:18] Uploaded consumed/한글.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:18] Kafka message sent for consumed/한글.csv
+[2024-02-08 오전 7:27:18] Uploaded csv/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:18] Kafka message sent for csv/.DS_Store
+[2024-02-08 오전 7:27:18] Uploaded csv/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:18] Kafka message sent for csv/._.DS_Store
+[2024-02-08 오전 7:27:18] Uploaded csv/broken/._Corrupt.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:18] Kafka message sent for csv/broken/._Corrupt.csv
+[2024-02-08 오전 7:27:18] Uploaded csv/broken/Corrupt.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:19] Kafka message sent for csv/broken/Corrupt.csv
+[2024-02-08 오전 7:27:19] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 10.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:19] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 10.csv
+[2024-02-08 오전 7:27:19] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 11.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:19] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 11.csv
+[2024-02-08 오전 7:27:19] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 12.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:19] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 12.csv
+[2024-02-08 오전 7:27:19] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 13.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:19] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 13.csv
+[2024-02-08 오전 7:27:19] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 14.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:19] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 14.csv
+[2024-02-08 오전 7:27:19] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 15.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:19] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 15.csv
+[2024-02-08 오전 7:27:19] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 16.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:20] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 16.csv
+[2024-02-08 오전 7:27:20] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 17.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:20] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 17.csv
+[2024-02-08 오전 7:27:20] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 18.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:20] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 18.csv
+[2024-02-08 오전 7:27:20] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 19.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:20] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 19.csv
+[2024-02-08 오전 7:27:20] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 2.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:20] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 2.csv
+[2024-02-08 오전 7:27:20] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 20.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:20] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 20.csv
+[2024-02-08 오전 7:27:20] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 21.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:20] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 21.txt
+[2024-02-08 오전 7:27:20] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 22.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:21] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 22.txt
+[2024-02-08 오전 7:27:21] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 23.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:21] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 23.txt
+[2024-02-08 오전 7:27:21] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 24.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:21] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 24.txt
+[2024-02-08 오전 7:27:21] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 25.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:21] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 25.txt
+[2024-02-08 오전 7:27:21] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 26.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:21] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 26.txt
+[2024-02-08 오전 7:27:21] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 27.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:21] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 27.txt
+[2024-02-08 오전 7:27:21] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 28.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:21] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 28.txt
+[2024-02-08 오전 7:27:22] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 29.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:22] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 29.txt
+[2024-02-08 오전 7:27:22] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:22] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 3.csv
+[2024-02-08 오전 7:27:22] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 30.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:22] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 30.txt
+[2024-02-08 오전 7:27:22] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:22] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 4.csv
+[2024-02-08 오전 7:27:22] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:22] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 5.csv
+[2024-02-08 오전 7:27:22] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:22] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 6.csv
+[2024-02-08 오전 7:27:22] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 7.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:23] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 7.csv
+[2024-02-08 오전 7:27:23] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 8.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:23] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 8.csv
+[2024-02-08 오전 7:27:23] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 9.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:24] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 9.csv
+[2024-02-08 오전 7:27:24] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:24] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy.csv
+[2024-02-08 오전 7:27:24] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:24] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets.csv
+[2024-02-08 오전 7:27:24] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 10.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:24] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 10.csv
+[2024-02-08 오전 7:27:24] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 11.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:24] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 11.csv
+[2024-02-08 오전 7:27:24] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 12.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:25] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 12.csv
+[2024-02-08 오전 7:27:25] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 13.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:25] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 13.csv
+[2024-02-08 오전 7:27:25] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 14.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:25] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 14.csv
+[2024-02-08 오전 7:27:25] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 15.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:25] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 15.csv
+[2024-02-08 오전 7:27:25] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 16.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:25] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 16.csv
+[2024-02-08 오전 7:27:25] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 17.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:25] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 17.csv
+[2024-02-08 오전 7:27:25] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 18.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:25] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 18.csv
+[2024-02-08 오전 7:27:25] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 19.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:26] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 19.csv
+[2024-02-08 오전 7:27:26] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 2.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:26] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 2.csv
+[2024-02-08 오전 7:27:26] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 20.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:26] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 20.csv
+[2024-02-08 오전 7:27:26] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 21.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:26] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 21.txt
+[2024-02-08 오전 7:27:26] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 22.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:26] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 22.txt
+[2024-02-08 오전 7:27:26] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 23.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:26] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 23.txt
+[2024-02-08 오전 7:27:26] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 24.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:26] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 24.txt
+[2024-02-08 오전 7:27:26] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 25.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:27] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 25.txt
+[2024-02-08 오전 7:27:27] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 26.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:27] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 26.txt
+[2024-02-08 오전 7:27:27] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 27.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:27] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 27.txt
+[2024-02-08 오전 7:27:27] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 28.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:27] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 28.txt
+[2024-02-08 오전 7:27:27] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 29.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:27] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 29.txt
+[2024-02-08 오전 7:27:27] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:27] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 3.csv
+[2024-02-08 오전 7:27:27] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 30.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:27] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 30.txt
+[2024-02-08 오전 7:27:27] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:28] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 4.csv
+[2024-02-08 오전 7:27:28] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:28] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 5.csv
+[2024-02-08 오전 7:27:28] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:28] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 6.csv
+[2024-02-08 오전 7:27:28] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 7.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:28] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 7.csv
+[2024-02-08 오전 7:27:28] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 8.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:28] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 8.csv
+[2024-02-08 오전 7:27:28] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 9.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:28] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 9.csv
+[2024-02-08 오전 7:27:28] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:28] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy.csv
+[2024-02-08 오전 7:27:29] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:29] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets.csv
+[2024-02-08 오전 7:27:29] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 10.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:29] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 10.csv
+[2024-02-08 오전 7:27:29] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 11.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:29] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 11.csv
+[2024-02-08 오전 7:27:29] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 12.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:29] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 12.csv
+[2024-02-08 오전 7:27:29] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 13.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:29] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 13.csv
+[2024-02-08 오전 7:27:29] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 14.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:29] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 14.csv
+[2024-02-08 오전 7:27:29] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 15.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:30] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 15.txt
+[2024-02-08 오전 7:27:30] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 16.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:30] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 16.txt
+[2024-02-08 오전 7:27:30] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 17.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:30] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 17.txt
+[2024-02-08 오전 7:27:30] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 18.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:30] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 18.txt
+[2024-02-08 오전 7:27:30] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 19.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:30] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 19.txt
+[2024-02-08 오전 7:27:30] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 2.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:30] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 2.csv
+[2024-02-08 오전 7:27:30] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 20.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:30] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 20.txt
+[2024-02-08 오전 7:27:30] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:31] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 3.csv
+[2024-02-08 오전 7:27:31] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:31] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 4.csv
+[2024-02-08 오전 7:27:31] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:31] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 5.csv
+[2024-02-08 오전 7:27:31] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:31] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 6.csv
+[2024-02-08 오전 7:27:31] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 7.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:31] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 7.csv
+[2024-02-08 오전 7:27:31] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 8.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:31] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 8.csv
+[2024-02-08 오전 7:27:31] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 9.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:31] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 9.csv
+[2024-02-08 오전 7:27:31] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:32] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy.csv
+[2024-02-08 오전 7:27:32] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:32] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean.csv
+[2024-02-08 오전 7:27:32] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 10.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:32] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 10.csv
+[2024-02-08 오전 7:27:32] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 11.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:32] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 11.csv
+[2024-02-08 오전 7:27:32] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 12.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:32] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 12.csv
+[2024-02-08 오전 7:27:32] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 13.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:32] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 13.csv
+[2024-02-08 오전 7:27:32] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 14.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:32] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 14.csv
+[2024-02-08 오전 7:27:32] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 15.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:33] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 15.txt
+[2024-02-08 오전 7:27:33] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 16.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:33] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 16.txt
+[2024-02-08 오전 7:27:33] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 17.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:33] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 17.txt
+[2024-02-08 오전 7:27:33] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 18.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:33] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 18.txt
+[2024-02-08 오전 7:27:33] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 19.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:33] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 19.txt
+[2024-02-08 오전 7:27:33] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 2.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:33] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 2.csv
+[2024-02-08 오전 7:27:33] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 20.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:27:33] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 20.txt
+[2024-02-08 오전 7:27:33] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:34] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 3.csv
+[2024-02-08 오전 7:27:34] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:34] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 4.csv
+[2024-02-08 오전 7:27:34] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:34] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 5.csv
+[2024-02-08 오전 7:27:34] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:34] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 6.csv
+[2024-02-08 오전 7:27:34] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 7.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:34] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 7.csv
+[2024-02-08 오전 7:27:34] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 8.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:34] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 8.csv
+[2024-02-08 오전 7:27:34] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 9.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:34] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 9.csv
+[2024-02-08 오전 7:27:35] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:35] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy.csv
+[2024-02-08 오전 7:27:35] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:27:35] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean.csv
+[2024-02-08 오전 7:27:35] Uploaded json/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:35] Kafka message sent for json/.DS_Store
+[2024-02-08 오전 7:27:35] Uploaded json/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:35] Kafka message sent for json/._.DS_Store
+[2024-02-08 오전 7:27:35] Uploaded json/all/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:35] Kafka message sent for json/all/.DS_Store
+[2024-02-08 오전 7:27:35] Uploaded json/all/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:35] Kafka message sent for json/all/._.DS_Store
+[2024-02-08 오전 7:27:35] Uploaded json/all/._array copy 0.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:35] Kafka message sent for json/all/._array copy 0.json
+[2024-02-08 오전 7:27:35] Uploaded json/all/._array copy 1.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:36] Kafka message sent for json/all/._array copy 1.json
+[2024-02-08 오전 7:27:36] Uploaded json/all/._array copy 10.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:36] Kafka message sent for json/all/._array copy 10.json
+[2024-02-08 오전 7:27:36] Uploaded json/all/._array copy 11.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:36] Kafka message sent for json/all/._array copy 11.json
+[2024-02-08 오전 7:27:36] Uploaded json/all/._array copy 12.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:36] Kafka message sent for json/all/._array copy 12.json
+[2024-02-08 오전 7:27:36] Uploaded json/all/._array copy 13.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:36] Kafka message sent for json/all/._array copy 13.json
+[2024-02-08 오전 7:27:36] Uploaded json/all/._array copy 14.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:36] Kafka message sent for json/all/._array copy 14.json
+[2024-02-08 오전 7:27:36] Uploaded json/all/._array copy 15.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:36] Kafka message sent for json/all/._array copy 15.json
+[2024-02-08 오전 7:27:36] Uploaded json/all/._array copy 2.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:37] Kafka message sent for json/all/._array copy 2.json
+[2024-02-08 오전 7:27:37] Uploaded json/all/._array copy 3.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:37] Kafka message sent for json/all/._array copy 3.json
+[2024-02-08 오전 7:27:37] Uploaded json/all/._array copy 4.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:37] Kafka message sent for json/all/._array copy 4.json
+[2024-02-08 오전 7:27:37] Uploaded json/all/._array copy 5.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:37] Kafka message sent for json/all/._array copy 5.json
+[2024-02-08 오전 7:27:37] Uploaded json/all/._array copy 6.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:37] Kafka message sent for json/all/._array copy 6.json
+[2024-02-08 오전 7:27:37] Uploaded json/all/._array copy 7.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:37] Kafka message sent for json/all/._array copy 7.json
+[2024-02-08 오전 7:27:37] Uploaded json/all/._array copy 8.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:37] Kafka message sent for json/all/._array copy 8.json
+[2024-02-08 오전 7:27:37] Uploaded json/all/._array copy 9.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:37] Kafka message sent for json/all/._array copy 9.json
+[2024-02-08 오전 7:27:37] Uploaded json/all/array copy 0.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:38] Kafka message sent for json/all/array copy 0.json
+[2024-02-08 오전 7:27:38] Uploaded json/all/array copy 1.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:38] Kafka message sent for json/all/array copy 1.json
+[2024-02-08 오전 7:27:38] Uploaded json/all/array copy 10.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:38] Kafka message sent for json/all/array copy 10.json
+[2024-02-08 오전 7:27:38] Uploaded json/all/array copy 11.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:38] Kafka message sent for json/all/array copy 11.json
+[2024-02-08 오전 7:27:38] Uploaded json/all/array copy 12.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:38] Kafka message sent for json/all/array copy 12.json
+[2024-02-08 오전 7:27:38] Uploaded json/all/array copy 13.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:38] Kafka message sent for json/all/array copy 13.json
+[2024-02-08 오전 7:27:38] Uploaded json/all/array copy 14.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:38] Kafka message sent for json/all/array copy 14.json
+[2024-02-08 오전 7:27:38] Uploaded json/all/array copy 15.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:39] Kafka message sent for json/all/array copy 15.json
+[2024-02-08 오전 7:27:39] Uploaded json/all/array copy 2.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:39] Kafka message sent for json/all/array copy 2.json
+[2024-02-08 오전 7:27:39] Uploaded json/all/array copy 3.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:39] Kafka message sent for json/all/array copy 3.json
+[2024-02-08 오전 7:27:39] Uploaded json/all/array copy 4.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:39] Kafka message sent for json/all/array copy 4.json
+[2024-02-08 오전 7:27:39] Uploaded json/all/array copy 5.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:39] Kafka message sent for json/all/array copy 5.json
+[2024-02-08 오전 7:27:39] Uploaded json/all/array copy 6.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:39] Kafka message sent for json/all/array copy 6.json
+[2024-02-08 오전 7:27:39] Uploaded json/all/array copy 7.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:39] Kafka message sent for json/all/array copy 7.json
+[2024-02-08 오전 7:27:39] Uploaded json/all/array copy 8.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:40] Kafka message sent for json/all/array copy 8.json
+[2024-02-08 오전 7:27:40] Uploaded json/all/array copy 9.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:40] Kafka message sent for json/all/array copy 9.json
+[2024-02-08 오전 7:27:40] Uploaded json/selected_key/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:40] Kafka message sent for json/selected_key/.DS_Store
+[2024-02-08 오전 7:27:40] Uploaded json/selected_key/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:40] Kafka message sent for json/selected_key/._.DS_Store
+[2024-02-08 오전 7:27:40] Uploaded json/selected_key/._complex copy 0.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:40] Kafka message sent for json/selected_key/._complex copy 0.json
+[2024-02-08 오전 7:27:40] Uploaded json/selected_key/._complex copy 1.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:40] Kafka message sent for json/selected_key/._complex copy 1.json
+[2024-02-08 오전 7:27:40] Uploaded json/selected_key/._complex copy 10.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:40] Kafka message sent for json/selected_key/._complex copy 10.json
+[2024-02-08 오전 7:27:40] Uploaded json/selected_key/._complex copy 11.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:41] Kafka message sent for json/selected_key/._complex copy 11.json
+[2024-02-08 오전 7:27:41] Uploaded json/selected_key/._complex copy 12.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:41] Kafka message sent for json/selected_key/._complex copy 12.json
+[2024-02-08 오전 7:27:41] Uploaded json/selected_key/._complex copy 13.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:41] Kafka message sent for json/selected_key/._complex copy 13.json
+[2024-02-08 오전 7:27:41] Uploaded json/selected_key/._complex copy 14.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:41] Kafka message sent for json/selected_key/._complex copy 14.json
+[2024-02-08 오전 7:27:41] Uploaded json/selected_key/._complex copy 15.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:41] Kafka message sent for json/selected_key/._complex copy 15.json
+[2024-02-08 오전 7:27:41] Uploaded json/selected_key/._complex copy 2.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:41] Kafka message sent for json/selected_key/._complex copy 2.json
+[2024-02-08 오전 7:27:41] Uploaded json/selected_key/._complex copy 3.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:41] Kafka message sent for json/selected_key/._complex copy 3.json
+[2024-02-08 오전 7:27:41] Uploaded json/selected_key/._complex copy 4.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:41] Kafka message sent for json/selected_key/._complex copy 4.json
+[2024-02-08 오전 7:27:42] Uploaded json/selected_key/._complex copy 5.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:42] Kafka message sent for json/selected_key/._complex copy 5.json
+[2024-02-08 오전 7:27:42] Uploaded json/selected_key/._complex copy 6.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:42] Kafka message sent for json/selected_key/._complex copy 6.json
+[2024-02-08 오전 7:27:42] Uploaded json/selected_key/._complex copy 7.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:42] Kafka message sent for json/selected_key/._complex copy 7.json
+[2024-02-08 오전 7:27:42] Uploaded json/selected_key/._complex copy 8.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:42] Kafka message sent for json/selected_key/._complex copy 8.json
+[2024-02-08 오전 7:27:42] Uploaded json/selected_key/._complex copy 9.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:42] Kafka message sent for json/selected_key/._complex copy 9.json
+[2024-02-08 오전 7:27:42] Uploaded json/selected_key/complex copy 0.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:42] Kafka message sent for json/selected_key/complex copy 0.json
+[2024-02-08 오전 7:27:42] Uploaded json/selected_key/complex copy 1.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:43] Kafka message sent for json/selected_key/complex copy 1.json
+[2024-02-08 오전 7:27:43] Uploaded json/selected_key/complex copy 10.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:43] Kafka message sent for json/selected_key/complex copy 10.json
+[2024-02-08 오전 7:27:43] Uploaded json/selected_key/complex copy 11.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:43] Kafka message sent for json/selected_key/complex copy 11.json
+[2024-02-08 오전 7:27:43] Uploaded json/selected_key/complex copy 12.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:43] Kafka message sent for json/selected_key/complex copy 12.json
+[2024-02-08 오전 7:27:43] Uploaded json/selected_key/complex copy 13.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:43] Kafka message sent for json/selected_key/complex copy 13.json
+[2024-02-08 오전 7:27:43] Uploaded json/selected_key/complex copy 14.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:43] Kafka message sent for json/selected_key/complex copy 14.json
+[2024-02-08 오전 7:27:43] Uploaded json/selected_key/complex copy 15.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:43] Kafka message sent for json/selected_key/complex copy 15.json
+[2024-02-08 오전 7:27:43] Uploaded json/selected_key/complex copy 2.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:43] Kafka message sent for json/selected_key/complex copy 2.json
+[2024-02-08 오전 7:27:44] Uploaded json/selected_key/complex copy 3.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:44] Kafka message sent for json/selected_key/complex copy 3.json
+[2024-02-08 오전 7:27:44] Uploaded json/selected_key/complex copy 4.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:44] Kafka message sent for json/selected_key/complex copy 4.json
+[2024-02-08 오전 7:27:44] Uploaded json/selected_key/complex copy 5.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:44] Kafka message sent for json/selected_key/complex copy 5.json
+[2024-02-08 오전 7:27:44] Uploaded json/selected_key/complex copy 6.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:44] Kafka message sent for json/selected_key/complex copy 6.json
+[2024-02-08 오전 7:27:44] Uploaded json/selected_key/complex copy 7.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:44] Kafka message sent for json/selected_key/complex copy 7.json
+[2024-02-08 오전 7:27:44] Uploaded json/selected_key/complex copy 8.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:44] Kafka message sent for json/selected_key/complex copy 8.json
+[2024-02-08 오전 7:27:44] Uploaded json/selected_key/complex copy 9.json to bucket file-lake-consumer
+[2024-02-08 오전 7:27:45] Kafka message sent for json/selected_key/complex copy 9.json
+[2024-02-08 오전 7:27:45] Uploaded photo/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:45] Kafka message sent for photo/.DS_Store
+[2024-02-08 오전 7:27:45] Uploaded photo/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:45] Kafka message sent for photo/._.DS_Store
+[2024-02-08 오전 7:27:45] Uploaded photo/Apple/._Apple_PNG12458 copy 10.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:45] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 10.png
+[2024-02-08 오전 7:27:45] Uploaded photo/Apple/._Apple_PNG12458 copy 11.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:45] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 11.png
+[2024-02-08 오전 7:27:45] Uploaded photo/Apple/._Apple_PNG12458 copy 12.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:45] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 12.png
+[2024-02-08 오전 7:27:45] Uploaded photo/Apple/._Apple_PNG12458 copy 13.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:45] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 13.png
+[2024-02-08 오전 7:27:45] Uploaded photo/Apple/._Apple_PNG12458 copy 14.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:45] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 14.png
+[2024-02-08 오전 7:27:45] Uploaded photo/Apple/._Apple_PNG12458 copy 15.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:46] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 15.png
+[2024-02-08 오전 7:27:46] Uploaded photo/Apple/._Apple_PNG12458 copy 16.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:46] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 16.png
+[2024-02-08 오전 7:27:46] Uploaded photo/Apple/._Apple_PNG12458 copy 17.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:46] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 17.png
+[2024-02-08 오전 7:27:46] Uploaded photo/Apple/._Apple_PNG12458 copy 18.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:46] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 18.png
+[2024-02-08 오전 7:27:46] Uploaded photo/Apple/._Apple_PNG12458 copy 19.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:46] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 19.png
+[2024-02-08 오전 7:27:46] Uploaded photo/Apple/._Apple_PNG12458 copy 2.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:46] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 2.png
+[2024-02-08 오전 7:27:46] Uploaded photo/Apple/._Apple_PNG12458 copy 20.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:46] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 20.png
+[2024-02-08 오전 7:27:46] Uploaded photo/Apple/._Apple_PNG12458 copy 3.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:47] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 3.png
+[2024-02-08 오전 7:27:47] Uploaded photo/Apple/._Apple_PNG12458 copy 4.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:47] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 4.png
+[2024-02-08 오전 7:27:47] Uploaded photo/Apple/._Apple_PNG12458 copy 5.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:47] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 5.png
+[2024-02-08 오전 7:27:47] Uploaded photo/Apple/._Apple_PNG12458 copy 6.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:47] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 6.png
+[2024-02-08 오전 7:27:47] Uploaded photo/Apple/._Apple_PNG12458 copy 7.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:47] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 7.png
+[2024-02-08 오전 7:27:47] Uploaded photo/Apple/._Apple_PNG12458 copy 8.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:47] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 8.png
+[2024-02-08 오전 7:27:47] Uploaded photo/Apple/._Apple_PNG12458 copy 9.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:47] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 9.png
+[2024-02-08 오전 7:27:47] Uploaded photo/Apple/._Apple_PNG12458 copy.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:48] Kafka message sent for photo/Apple/._Apple_PNG12458 copy.png
+[2024-02-08 오전 7:27:48] Uploaded photo/Apple/._Apple_PNG12458.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:48] Kafka message sent for photo/Apple/._Apple_PNG12458.png
+[2024-02-08 오전 7:27:48] Uploaded photo/Apple/Apple_PNG12458 copy 10.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:48] Kafka message sent for photo/Apple/Apple_PNG12458 copy 10.png
+[2024-02-08 오전 7:27:48] Uploaded photo/Apple/Apple_PNG12458 copy 11.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:48] Kafka message sent for photo/Apple/Apple_PNG12458 copy 11.png
+[2024-02-08 오전 7:27:48] Uploaded photo/Apple/Apple_PNG12458 copy 12.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:48] Kafka message sent for photo/Apple/Apple_PNG12458 copy 12.png
+[2024-02-08 오전 7:27:48] Uploaded photo/Apple/Apple_PNG12458 copy 13.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:48] Kafka message sent for photo/Apple/Apple_PNG12458 copy 13.png
+[2024-02-08 오전 7:27:49] Uploaded photo/Apple/Apple_PNG12458 copy 14.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:49] Kafka message sent for photo/Apple/Apple_PNG12458 copy 14.png
+[2024-02-08 오전 7:27:49] Uploaded photo/Apple/Apple_PNG12458 copy 15.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:49] Kafka message sent for photo/Apple/Apple_PNG12458 copy 15.png
+[2024-02-08 오전 7:27:49] Uploaded photo/Apple/Apple_PNG12458 copy 16.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:49] Kafka message sent for photo/Apple/Apple_PNG12458 copy 16.png
+[2024-02-08 오전 7:27:49] Uploaded photo/Apple/Apple_PNG12458 copy 17.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:49] Kafka message sent for photo/Apple/Apple_PNG12458 copy 17.png
+[2024-02-08 오전 7:27:49] Uploaded photo/Apple/Apple_PNG12458 copy 18.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:49] Kafka message sent for photo/Apple/Apple_PNG12458 copy 18.png
+[2024-02-08 오전 7:27:50] Uploaded photo/Apple/Apple_PNG12458 copy 19.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:50] Kafka message sent for photo/Apple/Apple_PNG12458 copy 19.png
+[2024-02-08 오전 7:27:50] Uploaded photo/Apple/Apple_PNG12458 copy 2.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:50] Kafka message sent for photo/Apple/Apple_PNG12458 copy 2.png
+[2024-02-08 오전 7:27:50] Uploaded photo/Apple/Apple_PNG12458 copy 20.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:50] Kafka message sent for photo/Apple/Apple_PNG12458 copy 20.png
+[2024-02-08 오전 7:27:50] Uploaded photo/Apple/Apple_PNG12458 copy 3.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:50] Kafka message sent for photo/Apple/Apple_PNG12458 copy 3.png
+[2024-02-08 오전 7:27:50] Uploaded photo/Apple/Apple_PNG12458 copy 4.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:51] Kafka message sent for photo/Apple/Apple_PNG12458 copy 4.png
+[2024-02-08 오전 7:27:51] Uploaded photo/Apple/Apple_PNG12458 copy 5.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:51] Kafka message sent for photo/Apple/Apple_PNG12458 copy 5.png
+[2024-02-08 오전 7:27:51] Uploaded photo/Apple/Apple_PNG12458 copy 6.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:51] Kafka message sent for photo/Apple/Apple_PNG12458 copy 6.png
+[2024-02-08 오전 7:27:51] Uploaded photo/Apple/Apple_PNG12458 copy 7.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:51] Kafka message sent for photo/Apple/Apple_PNG12458 copy 7.png
+[2024-02-08 오전 7:27:51] Uploaded photo/Apple/Apple_PNG12458 copy 8.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:51] Kafka message sent for photo/Apple/Apple_PNG12458 copy 8.png
+[2024-02-08 오전 7:27:51] Uploaded photo/Apple/Apple_PNG12458 copy 9.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:52] Kafka message sent for photo/Apple/Apple_PNG12458 copy 9.png
+[2024-02-08 오전 7:27:52] Uploaded photo/Apple/Apple_PNG12458 copy.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:52] Kafka message sent for photo/Apple/Apple_PNG12458 copy.png
+[2024-02-08 오전 7:27:52] Uploaded photo/Apple/Apple_PNG12458.png to bucket file-lake-consumer
+[2024-02-08 오전 7:27:52] Kafka message sent for photo/Apple/Apple_PNG12458.png
+[2024-02-08 오전 7:27:52] Uploaded photo/Nature/._Nature_107-1600x1200 copy 10.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:52] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 10.jpg
+[2024-02-08 오전 7:27:52] Uploaded photo/Nature/._Nature_107-1600x1200 copy 11.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:52] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 11.jpg
+[2024-02-08 오전 7:27:52] Uploaded photo/Nature/._Nature_107-1600x1200 copy 12.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:52] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 12.jpg
+[2024-02-08 오전 7:27:52] Uploaded photo/Nature/._Nature_107-1600x1200 copy 13.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:53] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 13.jpg
+[2024-02-08 오전 7:27:53] Uploaded photo/Nature/._Nature_107-1600x1200 copy 14.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:53] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 14.jpg
+[2024-02-08 오전 7:27:53] Uploaded photo/Nature/._Nature_107-1600x1200 copy 15.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:53] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 15.jpg
+[2024-02-08 오전 7:27:53] Uploaded photo/Nature/._Nature_107-1600x1200 copy 16.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:53] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 16.jpg
+[2024-02-08 오전 7:27:53] Uploaded photo/Nature/._Nature_107-1600x1200 copy 17.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:53] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 17.jpg
+[2024-02-08 오전 7:27:53] Uploaded photo/Nature/._Nature_107-1600x1200 copy 18.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:53] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 18.jpg
+[2024-02-08 오전 7:27:53] Uploaded photo/Nature/._Nature_107-1600x1200 copy 19.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:53] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 19.jpg
+[2024-02-08 오전 7:27:53] Uploaded photo/Nature/._Nature_107-1600x1200 copy 2.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:54] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 2.jpg
+[2024-02-08 오전 7:27:54] Uploaded photo/Nature/._Nature_107-1600x1200 copy 20.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:54] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 20.jpg
+[2024-02-08 오전 7:27:54] Uploaded photo/Nature/._Nature_107-1600x1200 copy 3.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:54] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 3.jpg
+[2024-02-08 오전 7:27:54] Uploaded photo/Nature/._Nature_107-1600x1200 copy 4.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:54] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 4.jpg
+[2024-02-08 오전 7:27:54] Uploaded photo/Nature/._Nature_107-1600x1200 copy 5.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:54] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 5.jpg
+[2024-02-08 오전 7:27:54] Uploaded photo/Nature/._Nature_107-1600x1200 copy 6.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:54] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 6.jpg
+[2024-02-08 오전 7:27:54] Uploaded photo/Nature/._Nature_107-1600x1200 copy 7.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:54] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 7.jpg
+[2024-02-08 오전 7:27:54] Uploaded photo/Nature/._Nature_107-1600x1200 copy 8.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:55] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 8.jpg
+[2024-02-08 오전 7:27:55] Uploaded photo/Nature/._Nature_107-1600x1200 copy 9.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:55] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 9.jpg
+[2024-02-08 오전 7:27:55] Uploaded photo/Nature/._Nature_107-1600x1200 copy.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:55] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy.jpg
+[2024-02-08 오전 7:27:55] Uploaded photo/Nature/._Nature_107-1600x1200.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:55] Kafka message sent for photo/Nature/._Nature_107-1600x1200.jpg
+[2024-02-08 오전 7:27:55] Uploaded photo/Nature/Nature_107-1600x1200 copy 10.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:55] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 10.jpg
+[2024-02-08 오전 7:27:55] Uploaded photo/Nature/Nature_107-1600x1200 copy 11.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:55] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 11.jpg
+[2024-02-08 오전 7:27:55] Uploaded photo/Nature/Nature_107-1600x1200 copy 12.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:55] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 12.jpg
+[2024-02-08 오전 7:27:55] Uploaded photo/Nature/Nature_107-1600x1200 copy 13.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:56] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 13.jpg
+[2024-02-08 오전 7:27:56] Uploaded photo/Nature/Nature_107-1600x1200 copy 14.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:56] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 14.jpg
+[2024-02-08 오전 7:27:56] Uploaded photo/Nature/Nature_107-1600x1200 copy 15.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:56] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 15.jpg
+[2024-02-08 오전 7:27:56] Uploaded photo/Nature/Nature_107-1600x1200 copy 16.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:56] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 16.jpg
+[2024-02-08 오전 7:27:56] Uploaded photo/Nature/Nature_107-1600x1200 copy 17.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:56] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 17.jpg
+[2024-02-08 오전 7:27:56] Uploaded photo/Nature/Nature_107-1600x1200 copy 18.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:56] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 18.jpg
+[2024-02-08 오전 7:27:56] Uploaded photo/Nature/Nature_107-1600x1200 copy 19.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:57] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 19.jpg
+[2024-02-08 오전 7:27:57] Uploaded photo/Nature/Nature_107-1600x1200 copy 2.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:57] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 2.jpg
+[2024-02-08 오전 7:27:57] Uploaded photo/Nature/Nature_107-1600x1200 copy 20.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:57] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 20.jpg
+[2024-02-08 오전 7:27:57] Uploaded photo/Nature/Nature_107-1600x1200 copy 3.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:57] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 3.jpg
+[2024-02-08 오전 7:27:57] Uploaded photo/Nature/Nature_107-1600x1200 copy 4.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:57] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 4.jpg
+[2024-02-08 오전 7:27:57] Uploaded photo/Nature/Nature_107-1600x1200 copy 5.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:57] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 5.jpg
+[2024-02-08 오전 7:27:57] Uploaded photo/Nature/Nature_107-1600x1200 copy 6.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:58] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 6.jpg
+[2024-02-08 오전 7:27:58] Uploaded photo/Nature/Nature_107-1600x1200 copy 7.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:58] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 7.jpg
+[2024-02-08 오전 7:27:58] Uploaded photo/Nature/Nature_107-1600x1200 copy 8.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:58] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 8.jpg
+[2024-02-08 오전 7:27:58] Uploaded photo/Nature/Nature_107-1600x1200 copy 9.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:58] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 9.jpg
+[2024-02-08 오전 7:27:58] Uploaded photo/Nature/Nature_107-1600x1200 copy.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:58] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy.jpg
+[2024-02-08 오전 7:27:58] Uploaded photo/Nature/Nature_107-1600x1200.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:27:58] Kafka message sent for photo/Nature/Nature_107-1600x1200.jpg
+[2024-02-08 오전 7:27:58] Uploaded video/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:58] Kafka message sent for video/.DS_Store
+[2024-02-08 오전 7:27:58] Uploaded video/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:27:59] Kafka message sent for video/._.DS_Store
+[2024-02-08 오전 7:27:59] 접속 종료 127.0.0.1: Offline 
+
+[2024-02-08 오전 7:28:01] 접속 127.0.0.1 성공
+[2024-02-08 오전 7:28:01] Uploaded consumed/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:01] Kafka message sent for consumed/.DS_Store
+[2024-02-08 오전 7:28:01] Uploaded consumed/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:02] Kafka message sent for consumed/._.DS_Store
+[2024-02-08 오전 7:28:02] Uploaded consumed/._1GGG.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:02] Kafka message sent for consumed/._1GGG.csv
+[2024-02-08 오전 7:28:02] Uploaded consumed/._2HHH.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:02] Kafka message sent for consumed/._2HHH.csv
+[2024-02-08 오전 7:28:02] Uploaded consumed/._3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:02] Kafka message sent for consumed/._3.csv
+[2024-02-08 오전 7:28:02] Uploaded consumed/._4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:02] Kafka message sent for consumed/._4.csv
+[2024-02-08 오전 7:28:02] Uploaded consumed/._5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:02] Kafka message sent for consumed/._5.csv
+[2024-02-08 오전 7:28:02] Uploaded consumed/._6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:02] Kafka message sent for consumed/._6.csv
+[2024-02-08 오전 7:28:02] Uploaded consumed/._AA.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:03] Kafka message sent for consumed/._AA.csv
+[2024-02-08 오전 7:28:03] Uploaded consumed/._BB.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:03] Kafka message sent for consumed/._BB.csv
+[2024-02-08 오전 7:28:03] Uploaded consumed/._한글.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:03] Kafka message sent for consumed/._한글.csv
+[2024-02-08 오전 7:28:03] Uploaded consumed/1GGG.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:03] Kafka message sent for consumed/1GGG.csv
+[2024-02-08 오전 7:28:03] Uploaded consumed/2HHH.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:03] Kafka message sent for consumed/2HHH.csv
+[2024-02-08 오전 7:28:03] Uploaded consumed/3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:03] Kafka message sent for consumed/3.csv
+[2024-02-08 오전 7:28:03] Uploaded consumed/4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:03] Kafka message sent for consumed/4.csv
+[2024-02-08 오전 7:28:03] Uploaded consumed/5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:03] Kafka message sent for consumed/5.csv
+[2024-02-08 오전 7:28:03] Uploaded consumed/6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:04] Kafka message sent for consumed/6.csv
+[2024-02-08 오전 7:28:04] Uploaded consumed/AA.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:04] Kafka message sent for consumed/AA.csv
+[2024-02-08 오전 7:28:04] Uploaded consumed/BB.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:04] Kafka message sent for consumed/BB.csv
+[2024-02-08 오전 7:28:04] Uploaded consumed/한글.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:04] Kafka message sent for consumed/한글.csv
+[2024-02-08 오전 7:28:04] Uploaded csv/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:04] Kafka message sent for csv/.DS_Store
+[2024-02-08 오전 7:28:04] Uploaded csv/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:04] Kafka message sent for csv/._.DS_Store
+[2024-02-08 오전 7:28:04] Uploaded csv/broken/._Corrupt.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:04] Kafka message sent for csv/broken/._Corrupt.csv
+[2024-02-08 오전 7:28:04] Uploaded csv/broken/Corrupt.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:04] Kafka message sent for csv/broken/Corrupt.csv
+[2024-02-08 오전 7:28:04] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 10.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:05] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 10.csv
+[2024-02-08 오전 7:28:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 11.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:05] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 11.csv
+[2024-02-08 오전 7:28:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 12.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:05] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 12.csv
+[2024-02-08 오전 7:28:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 13.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:05] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 13.csv
+[2024-02-08 오전 7:28:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 14.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:05] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 14.csv
+[2024-02-08 오전 7:28:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 15.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:05] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 15.csv
+[2024-02-08 오전 7:28:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 16.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:05] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 16.csv
+[2024-02-08 오전 7:28:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 17.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 17.csv
+[2024-02-08 오전 7:28:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 18.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 18.csv
+[2024-02-08 오전 7:28:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 19.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 19.csv
+[2024-02-08 오전 7:28:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 2.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 2.csv
+[2024-02-08 오전 7:28:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 20.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 20.csv
+[2024-02-08 오전 7:28:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 21.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 21.txt
+[2024-02-08 오전 7:28:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 22.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 22.txt
+[2024-02-08 오전 7:28:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 23.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 23.txt
+[2024-02-08 오전 7:28:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 24.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 24.txt
+[2024-02-08 오전 7:28:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 25.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 25.txt
+[2024-02-08 오전 7:28:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 26.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 26.txt
+[2024-02-08 오전 7:28:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 27.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 27.txt
+[2024-02-08 오전 7:28:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 28.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 28.txt
+[2024-02-08 오전 7:28:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 29.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 29.txt
+[2024-02-08 오전 7:28:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 3.csv
+[2024-02-08 오전 7:28:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 30.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 30.txt
+[2024-02-08 오전 7:28:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 4.csv
+[2024-02-08 오전 7:28:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 5.csv
+[2024-02-08 오전 7:28:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 6.csv
+[2024-02-08 오전 7:28:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 7.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 7.csv
+[2024-02-08 오전 7:28:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 8.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 8.csv
+[2024-02-08 오전 7:28:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 9.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 9.csv
+[2024-02-08 오전 7:28:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy.csv
+[2024-02-08 오전 7:28:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:09] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets.csv
+[2024-02-08 오전 7:28:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 10.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:09] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 10.csv
+[2024-02-08 오전 7:28:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 11.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:09] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 11.csv
+[2024-02-08 오전 7:28:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 12.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:09] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 12.csv
+[2024-02-08 오전 7:28:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 13.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:09] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 13.csv
+[2024-02-08 오전 7:28:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 14.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:09] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 14.csv
+[2024-02-08 오전 7:28:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 15.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:09] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 15.csv
+[2024-02-08 오전 7:28:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 16.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:09] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 16.csv
+[2024-02-08 오전 7:28:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 17.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 17.csv
+[2024-02-08 오전 7:28:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 18.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 18.csv
+[2024-02-08 오전 7:28:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 19.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 19.csv
+[2024-02-08 오전 7:28:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 2.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 2.csv
+[2024-02-08 오전 7:28:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 20.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 20.csv
+[2024-02-08 오전 7:28:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 21.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 21.txt
+[2024-02-08 오전 7:28:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 22.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 22.txt
+[2024-02-08 오전 7:28:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 23.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 23.txt
+[2024-02-08 오전 7:28:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 24.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 24.txt
+[2024-02-08 오전 7:28:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 25.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 25.txt
+[2024-02-08 오전 7:28:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 26.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 26.txt
+[2024-02-08 오전 7:28:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 27.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 27.txt
+[2024-02-08 오전 7:28:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 28.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 28.txt
+[2024-02-08 오전 7:28:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 29.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 29.txt
+[2024-02-08 오전 7:28:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 3.csv
+[2024-02-08 오전 7:28:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 30.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 30.txt
+[2024-02-08 오전 7:28:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 4.csv
+[2024-02-08 오전 7:28:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 5.csv
+[2024-02-08 오전 7:28:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 6.csv
+[2024-02-08 오전 7:28:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 7.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 7.csv
+[2024-02-08 오전 7:28:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 8.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 8.csv
+[2024-02-08 오전 7:28:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 9.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 9.csv
+[2024-02-08 오전 7:28:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:13] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy.csv
+[2024-02-08 오전 7:28:13] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:13] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets.csv
+[2024-02-08 오전 7:28:13] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 10.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:13] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 10.csv
+[2024-02-08 오전 7:28:13] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 11.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:13] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 11.csv
+[2024-02-08 오전 7:28:13] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 12.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:13] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 12.csv
+[2024-02-08 오전 7:28:13] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 13.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:13] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 13.csv
+[2024-02-08 오전 7:28:13] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 14.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:13] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 14.csv
+[2024-02-08 오전 7:28:13] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 15.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:13] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 15.txt
+[2024-02-08 오전 7:28:13] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 16.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 16.txt
+[2024-02-08 오전 7:28:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 17.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 17.txt
+[2024-02-08 오전 7:28:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 18.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 18.txt
+[2024-02-08 오전 7:28:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 19.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 19.txt
+[2024-02-08 오전 7:28:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 2.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 2.csv
+[2024-02-08 오전 7:28:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 20.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 20.txt
+[2024-02-08 오전 7:28:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 3.csv
+[2024-02-08 오전 7:28:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 4.csv
+[2024-02-08 오전 7:28:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 5.csv
+[2024-02-08 오전 7:28:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 6.csv
+[2024-02-08 오전 7:28:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 7.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 7.csv
+[2024-02-08 오전 7:28:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 8.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 8.csv
+[2024-02-08 오전 7:28:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 9.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 9.csv
+[2024-02-08 오전 7:28:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy.csv
+[2024-02-08 오전 7:28:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean.csv
+[2024-02-08 오전 7:28:15] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 10.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:16] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 10.csv
+[2024-02-08 오전 7:28:16] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 11.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:16] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 11.csv
+[2024-02-08 오전 7:28:16] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 12.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:16] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 12.csv
+[2024-02-08 오전 7:28:16] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 13.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:16] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 13.csv
+[2024-02-08 오전 7:28:16] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 14.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:16] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 14.csv
+[2024-02-08 오전 7:28:16] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 15.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:16] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 15.txt
+[2024-02-08 오전 7:28:16] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 16.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:16] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 16.txt
+[2024-02-08 오전 7:28:16] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 17.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 17.txt
+[2024-02-08 오전 7:28:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 18.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 18.txt
+[2024-02-08 오전 7:28:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 19.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 19.txt
+[2024-02-08 오전 7:28:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 2.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 2.csv
+[2024-02-08 오전 7:28:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 20.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:28:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 20.txt
+[2024-02-08 오전 7:28:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 3.csv
+[2024-02-08 오전 7:28:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 4.csv
+[2024-02-08 오전 7:28:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 5.csv
+[2024-02-08 오전 7:28:18] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 6.csv
+[2024-02-08 오전 7:28:18] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 7.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 7.csv
+[2024-02-08 오전 7:28:18] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 8.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 8.csv
+[2024-02-08 오전 7:28:18] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 9.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 9.csv
+[2024-02-08 오전 7:28:18] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy.csv
+[2024-02-08 오전 7:28:18] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:28:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean.csv
+[2024-02-08 오전 7:28:18] Uploaded json/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:19] Kafka message sent for json/.DS_Store
+[2024-02-08 오전 7:28:19] Uploaded json/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:19] Kafka message sent for json/._.DS_Store
+[2024-02-08 오전 7:28:19] Uploaded json/all/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:19] Kafka message sent for json/all/.DS_Store
+[2024-02-08 오전 7:28:19] Uploaded json/all/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:19] Kafka message sent for json/all/._.DS_Store
+[2024-02-08 오전 7:28:19] Uploaded json/all/._array copy 0.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:19] Kafka message sent for json/all/._array copy 0.json
+[2024-02-08 오전 7:28:19] Uploaded json/all/._array copy 1.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:19] Kafka message sent for json/all/._array copy 1.json
+[2024-02-08 오전 7:28:19] Uploaded json/all/._array copy 10.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:19] Kafka message sent for json/all/._array copy 10.json
+[2024-02-08 오전 7:28:19] Uploaded json/all/._array copy 11.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:19] Kafka message sent for json/all/._array copy 11.json
+[2024-02-08 오전 7:28:19] Uploaded json/all/._array copy 12.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:20] Kafka message sent for json/all/._array copy 12.json
+[2024-02-08 오전 7:28:20] Uploaded json/all/._array copy 13.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:20] Kafka message sent for json/all/._array copy 13.json
+[2024-02-08 오전 7:28:20] Uploaded json/all/._array copy 14.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:20] Kafka message sent for json/all/._array copy 14.json
+[2024-02-08 오전 7:28:20] Uploaded json/all/._array copy 15.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:20] Kafka message sent for json/all/._array copy 15.json
+[2024-02-08 오전 7:28:20] Uploaded json/all/._array copy 2.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:20] Kafka message sent for json/all/._array copy 2.json
+[2024-02-08 오전 7:28:20] Uploaded json/all/._array copy 3.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:20] Kafka message sent for json/all/._array copy 3.json
+[2024-02-08 오전 7:28:20] Uploaded json/all/._array copy 4.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:20] Kafka message sent for json/all/._array copy 4.json
+[2024-02-08 오전 7:28:20] Uploaded json/all/._array copy 5.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:20] Kafka message sent for json/all/._array copy 5.json
+[2024-02-08 오전 7:28:20] Uploaded json/all/._array copy 6.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:21] Kafka message sent for json/all/._array copy 6.json
+[2024-02-08 오전 7:28:21] Uploaded json/all/._array copy 7.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:21] Kafka message sent for json/all/._array copy 7.json
+[2024-02-08 오전 7:28:21] Uploaded json/all/._array copy 8.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:21] Kafka message sent for json/all/._array copy 8.json
+[2024-02-08 오전 7:28:21] Uploaded json/all/._array copy 9.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:21] Kafka message sent for json/all/._array copy 9.json
+[2024-02-08 오전 7:28:21] Uploaded json/all/array copy 0.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:21] Kafka message sent for json/all/array copy 0.json
+[2024-02-08 오전 7:28:21] Uploaded json/all/array copy 1.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:21] Kafka message sent for json/all/array copy 1.json
+[2024-02-08 오전 7:28:21] Uploaded json/all/array copy 10.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:21] Kafka message sent for json/all/array copy 10.json
+[2024-02-08 오전 7:28:21] Uploaded json/all/array copy 11.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:21] Kafka message sent for json/all/array copy 11.json
+[2024-02-08 오전 7:28:21] Uploaded json/all/array copy 12.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:22] Kafka message sent for json/all/array copy 12.json
+[2024-02-08 오전 7:28:22] Uploaded json/all/array copy 13.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:22] Kafka message sent for json/all/array copy 13.json
+[2024-02-08 오전 7:28:22] Uploaded json/all/array copy 14.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:22] Kafka message sent for json/all/array copy 14.json
+[2024-02-08 오전 7:28:22] Uploaded json/all/array copy 15.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:22] Kafka message sent for json/all/array copy 15.json
+[2024-02-08 오전 7:28:22] Uploaded json/all/array copy 2.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:22] Kafka message sent for json/all/array copy 2.json
+[2024-02-08 오전 7:28:22] Uploaded json/all/array copy 3.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:22] Kafka message sent for json/all/array copy 3.json
+[2024-02-08 오전 7:28:22] Uploaded json/all/array copy 4.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:22] Kafka message sent for json/all/array copy 4.json
+[2024-02-08 오전 7:28:22] Uploaded json/all/array copy 5.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:23] Kafka message sent for json/all/array copy 5.json
+[2024-02-08 오전 7:28:23] Uploaded json/all/array copy 6.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:23] Kafka message sent for json/all/array copy 6.json
+[2024-02-08 오전 7:28:23] Uploaded json/all/array copy 7.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:23] Kafka message sent for json/all/array copy 7.json
+[2024-02-08 오전 7:28:23] Uploaded json/all/array copy 8.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:23] Kafka message sent for json/all/array copy 8.json
+[2024-02-08 오전 7:28:23] Uploaded json/all/array copy 9.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:23] Kafka message sent for json/all/array copy 9.json
+[2024-02-08 오전 7:28:23] Uploaded json/selected_key/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:23] Kafka message sent for json/selected_key/.DS_Store
+[2024-02-08 오전 7:28:23] Uploaded json/selected_key/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:23] Kafka message sent for json/selected_key/._.DS_Store
+[2024-02-08 오전 7:28:23] Uploaded json/selected_key/._complex copy 0.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:23] Kafka message sent for json/selected_key/._complex copy 0.json
+[2024-02-08 오전 7:28:23] Uploaded json/selected_key/._complex copy 1.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:24] Kafka message sent for json/selected_key/._complex copy 1.json
+[2024-02-08 오전 7:28:24] Uploaded json/selected_key/._complex copy 10.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:24] Kafka message sent for json/selected_key/._complex copy 10.json
+[2024-02-08 오전 7:28:24] Uploaded json/selected_key/._complex copy 11.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:24] Kafka message sent for json/selected_key/._complex copy 11.json
+[2024-02-08 오전 7:28:24] Uploaded json/selected_key/._complex copy 12.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:24] Kafka message sent for json/selected_key/._complex copy 12.json
+[2024-02-08 오전 7:28:24] Uploaded json/selected_key/._complex copy 13.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:24] Kafka message sent for json/selected_key/._complex copy 13.json
+[2024-02-08 오전 7:28:24] Uploaded json/selected_key/._complex copy 14.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:24] Kafka message sent for json/selected_key/._complex copy 14.json
+[2024-02-08 오전 7:28:24] Uploaded json/selected_key/._complex copy 15.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:24] Kafka message sent for json/selected_key/._complex copy 15.json
+[2024-02-08 오전 7:28:24] Uploaded json/selected_key/._complex copy 2.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:24] Kafka message sent for json/selected_key/._complex copy 2.json
+[2024-02-08 오전 7:28:25] Uploaded json/selected_key/._complex copy 3.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:25] Kafka message sent for json/selected_key/._complex copy 3.json
+[2024-02-08 오전 7:28:25] Uploaded json/selected_key/._complex copy 4.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:25] Kafka message sent for json/selected_key/._complex copy 4.json
+[2024-02-08 오전 7:28:25] Uploaded json/selected_key/._complex copy 5.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:25] Kafka message sent for json/selected_key/._complex copy 5.json
+[2024-02-08 오전 7:28:25] Uploaded json/selected_key/._complex copy 6.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:25] Kafka message sent for json/selected_key/._complex copy 6.json
+[2024-02-08 오전 7:28:25] Uploaded json/selected_key/._complex copy 7.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:25] Kafka message sent for json/selected_key/._complex copy 7.json
+[2024-02-08 오전 7:28:25] Uploaded json/selected_key/._complex copy 8.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:25] Kafka message sent for json/selected_key/._complex copy 8.json
+[2024-02-08 오전 7:28:25] Uploaded json/selected_key/._complex copy 9.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:25] Kafka message sent for json/selected_key/._complex copy 9.json
+[2024-02-08 오전 7:28:25] Uploaded json/selected_key/complex copy 0.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:26] Kafka message sent for json/selected_key/complex copy 0.json
+[2024-02-08 오전 7:28:26] Uploaded json/selected_key/complex copy 1.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:26] Kafka message sent for json/selected_key/complex copy 1.json
+[2024-02-08 오전 7:28:26] Uploaded json/selected_key/complex copy 10.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:26] Kafka message sent for json/selected_key/complex copy 10.json
+[2024-02-08 오전 7:28:26] Uploaded json/selected_key/complex copy 11.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:26] Kafka message sent for json/selected_key/complex copy 11.json
+[2024-02-08 오전 7:28:26] Uploaded json/selected_key/complex copy 12.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:26] Kafka message sent for json/selected_key/complex copy 12.json
+[2024-02-08 오전 7:28:26] Uploaded json/selected_key/complex copy 13.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:26] Kafka message sent for json/selected_key/complex copy 13.json
+[2024-02-08 오전 7:28:26] Uploaded json/selected_key/complex copy 14.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:26] Kafka message sent for json/selected_key/complex copy 14.json
+[2024-02-08 오전 7:28:26] Uploaded json/selected_key/complex copy 15.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:26] Kafka message sent for json/selected_key/complex copy 15.json
+[2024-02-08 오전 7:28:26] Uploaded json/selected_key/complex copy 2.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:27] Kafka message sent for json/selected_key/complex copy 2.json
+[2024-02-08 오전 7:28:27] Uploaded json/selected_key/complex copy 3.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:27] Kafka message sent for json/selected_key/complex copy 3.json
+[2024-02-08 오전 7:28:27] Uploaded json/selected_key/complex copy 4.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:27] Kafka message sent for json/selected_key/complex copy 4.json
+[2024-02-08 오전 7:28:27] Uploaded json/selected_key/complex copy 5.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:27] Kafka message sent for json/selected_key/complex copy 5.json
+[2024-02-08 오전 7:28:27] Uploaded json/selected_key/complex copy 6.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:27] Kafka message sent for json/selected_key/complex copy 6.json
+[2024-02-08 오전 7:28:27] Uploaded json/selected_key/complex copy 7.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:27] Kafka message sent for json/selected_key/complex copy 7.json
+[2024-02-08 오전 7:28:27] Uploaded json/selected_key/complex copy 8.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:27] Kafka message sent for json/selected_key/complex copy 8.json
+[2024-02-08 오전 7:28:27] Uploaded json/selected_key/complex copy 9.json to bucket file-lake-consumer
+[2024-02-08 오전 7:28:28] Kafka message sent for json/selected_key/complex copy 9.json
+[2024-02-08 오전 7:28:28] Uploaded photo/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:28] Kafka message sent for photo/.DS_Store
+[2024-02-08 오전 7:28:28] Uploaded photo/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:28] Kafka message sent for photo/._.DS_Store
+[2024-02-08 오전 7:28:28] Uploaded photo/Apple/._Apple_PNG12458 copy 10.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:28] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 10.png
+[2024-02-08 오전 7:28:28] Uploaded photo/Apple/._Apple_PNG12458 copy 11.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:28] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 11.png
+[2024-02-08 오전 7:28:28] Uploaded photo/Apple/._Apple_PNG12458 copy 12.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:28] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 12.png
+[2024-02-08 오전 7:28:28] Uploaded photo/Apple/._Apple_PNG12458 copy 13.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:28] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 13.png
+[2024-02-08 오전 7:28:28] Uploaded photo/Apple/._Apple_PNG12458 copy 14.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:28] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 14.png
+[2024-02-08 오전 7:28:28] Uploaded photo/Apple/._Apple_PNG12458 copy 15.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 15.png
+[2024-02-08 오전 7:28:29] Uploaded photo/Apple/._Apple_PNG12458 copy 16.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 16.png
+[2024-02-08 오전 7:28:29] Uploaded photo/Apple/._Apple_PNG12458 copy 17.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 17.png
+[2024-02-08 오전 7:28:29] Uploaded photo/Apple/._Apple_PNG12458 copy 18.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 18.png
+[2024-02-08 오전 7:28:29] Uploaded photo/Apple/._Apple_PNG12458 copy 19.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 19.png
+[2024-02-08 오전 7:28:29] Uploaded photo/Apple/._Apple_PNG12458 copy 2.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 2.png
+[2024-02-08 오전 7:28:29] Uploaded photo/Apple/._Apple_PNG12458 copy 20.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 20.png
+[2024-02-08 오전 7:28:29] Uploaded photo/Apple/._Apple_PNG12458 copy 3.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 3.png
+[2024-02-08 오전 7:28:29] Uploaded photo/Apple/._Apple_PNG12458 copy 4.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 4.png
+[2024-02-08 오전 7:28:30] Uploaded photo/Apple/._Apple_PNG12458 copy 5.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 5.png
+[2024-02-08 오전 7:28:30] Uploaded photo/Apple/._Apple_PNG12458 copy 6.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 6.png
+[2024-02-08 오전 7:28:30] Uploaded photo/Apple/._Apple_PNG12458 copy 7.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 7.png
+[2024-02-08 오전 7:28:30] Uploaded photo/Apple/._Apple_PNG12458 copy 8.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 8.png
+[2024-02-08 오전 7:28:30] Uploaded photo/Apple/._Apple_PNG12458 copy 9.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 9.png
+[2024-02-08 오전 7:28:30] Uploaded photo/Apple/._Apple_PNG12458 copy.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy.png
+[2024-02-08 오전 7:28:30] Uploaded photo/Apple/._Apple_PNG12458.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:30] Kafka message sent for photo/Apple/._Apple_PNG12458.png
+[2024-02-08 오전 7:28:31] Uploaded photo/Apple/Apple_PNG12458 copy 10.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:31] Kafka message sent for photo/Apple/Apple_PNG12458 copy 10.png
+[2024-02-08 오전 7:28:31] Uploaded photo/Apple/Apple_PNG12458 copy 11.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:31] Kafka message sent for photo/Apple/Apple_PNG12458 copy 11.png
+[2024-02-08 오전 7:28:31] Uploaded photo/Apple/Apple_PNG12458 copy 12.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:31] Kafka message sent for photo/Apple/Apple_PNG12458 copy 12.png
+[2024-02-08 오전 7:28:31] Uploaded photo/Apple/Apple_PNG12458 copy 13.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:31] Kafka message sent for photo/Apple/Apple_PNG12458 copy 13.png
+[2024-02-08 오전 7:28:31] Uploaded photo/Apple/Apple_PNG12458 copy 14.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:31] Kafka message sent for photo/Apple/Apple_PNG12458 copy 14.png
+[2024-02-08 오전 7:28:32] Uploaded photo/Apple/Apple_PNG12458 copy 15.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:32] Kafka message sent for photo/Apple/Apple_PNG12458 copy 15.png
+[2024-02-08 오전 7:28:32] Uploaded photo/Apple/Apple_PNG12458 copy 16.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:32] Kafka message sent for photo/Apple/Apple_PNG12458 copy 16.png
+[2024-02-08 오전 7:28:32] Uploaded photo/Apple/Apple_PNG12458 copy 17.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:32] Kafka message sent for photo/Apple/Apple_PNG12458 copy 17.png
+[2024-02-08 오전 7:28:32] Uploaded photo/Apple/Apple_PNG12458 copy 18.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:32] Kafka message sent for photo/Apple/Apple_PNG12458 copy 18.png
+[2024-02-08 오전 7:28:32] Uploaded photo/Apple/Apple_PNG12458 copy 19.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:32] Kafka message sent for photo/Apple/Apple_PNG12458 copy 19.png
+[2024-02-08 오전 7:28:33] Uploaded photo/Apple/Apple_PNG12458 copy 2.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:33] Kafka message sent for photo/Apple/Apple_PNG12458 copy 2.png
+[2024-02-08 오전 7:28:33] Uploaded photo/Apple/Apple_PNG12458 copy 20.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:33] Kafka message sent for photo/Apple/Apple_PNG12458 copy 20.png
+[2024-02-08 오전 7:28:33] Uploaded photo/Apple/Apple_PNG12458 copy 3.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:33] Kafka message sent for photo/Apple/Apple_PNG12458 copy 3.png
+[2024-02-08 오전 7:28:33] Uploaded photo/Apple/Apple_PNG12458 copy 4.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:33] Kafka message sent for photo/Apple/Apple_PNG12458 copy 4.png
+[2024-02-08 오전 7:28:33] Uploaded photo/Apple/Apple_PNG12458 copy 5.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:34] Kafka message sent for photo/Apple/Apple_PNG12458 copy 5.png
+[2024-02-08 오전 7:28:34] Uploaded photo/Apple/Apple_PNG12458 copy 6.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:34] Kafka message sent for photo/Apple/Apple_PNG12458 copy 6.png
+[2024-02-08 오전 7:28:34] Uploaded photo/Apple/Apple_PNG12458 copy 7.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:34] Kafka message sent for photo/Apple/Apple_PNG12458 copy 7.png
+[2024-02-08 오전 7:28:34] Uploaded photo/Apple/Apple_PNG12458 copy 8.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:34] Kafka message sent for photo/Apple/Apple_PNG12458 copy 8.png
+[2024-02-08 오전 7:28:34] Uploaded photo/Apple/Apple_PNG12458 copy 9.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:34] Kafka message sent for photo/Apple/Apple_PNG12458 copy 9.png
+[2024-02-08 오전 7:28:34] Uploaded photo/Apple/Apple_PNG12458 copy.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:35] Kafka message sent for photo/Apple/Apple_PNG12458 copy.png
+[2024-02-08 오전 7:28:35] Uploaded photo/Apple/Apple_PNG12458.png to bucket file-lake-consumer
+[2024-02-08 오전 7:28:35] Kafka message sent for photo/Apple/Apple_PNG12458.png
+[2024-02-08 오전 7:28:35] Uploaded photo/Nature/._Nature_107-1600x1200 copy 10.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:35] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 10.jpg
+[2024-02-08 오전 7:28:35] Uploaded photo/Nature/._Nature_107-1600x1200 copy 11.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:35] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 11.jpg
+[2024-02-08 오전 7:28:35] Uploaded photo/Nature/._Nature_107-1600x1200 copy 12.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:35] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 12.jpg
+[2024-02-08 오전 7:28:35] Uploaded photo/Nature/._Nature_107-1600x1200 copy 13.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:35] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 13.jpg
+[2024-02-08 오전 7:28:35] Uploaded photo/Nature/._Nature_107-1600x1200 copy 14.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:35] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 14.jpg
+[2024-02-08 오전 7:28:35] Uploaded photo/Nature/._Nature_107-1600x1200 copy 15.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 15.jpg
+[2024-02-08 오전 7:28:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 16.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 16.jpg
+[2024-02-08 오전 7:28:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 17.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 17.jpg
+[2024-02-08 오전 7:28:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 18.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 18.jpg
+[2024-02-08 오전 7:28:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 19.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 19.jpg
+[2024-02-08 오전 7:28:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 2.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 2.jpg
+[2024-02-08 오전 7:28:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 20.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 20.jpg
+[2024-02-08 오전 7:28:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 3.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 3.jpg
+[2024-02-08 오전 7:28:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 4.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 4.jpg
+[2024-02-08 오전 7:28:37] Uploaded photo/Nature/._Nature_107-1600x1200 copy 5.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 5.jpg
+[2024-02-08 오전 7:28:37] Uploaded photo/Nature/._Nature_107-1600x1200 copy 6.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 6.jpg
+[2024-02-08 오전 7:28:37] Uploaded photo/Nature/._Nature_107-1600x1200 copy 7.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 7.jpg
+[2024-02-08 오전 7:28:37] Uploaded photo/Nature/._Nature_107-1600x1200 copy 8.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 8.jpg
+[2024-02-08 오전 7:28:37] Uploaded photo/Nature/._Nature_107-1600x1200 copy 9.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 9.jpg
+[2024-02-08 오전 7:28:37] Uploaded photo/Nature/._Nature_107-1600x1200 copy.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy.jpg
+[2024-02-08 오전 7:28:37] Uploaded photo/Nature/._Nature_107-1600x1200.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:38] Kafka message sent for photo/Nature/._Nature_107-1600x1200.jpg
+[2024-02-08 오전 7:28:38] Uploaded photo/Nature/Nature_107-1600x1200 copy 10.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:38] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 10.jpg
+[2024-02-08 오전 7:28:38] Uploaded photo/Nature/Nature_107-1600x1200 copy 11.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:38] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 11.jpg
+[2024-02-08 오전 7:28:38] Uploaded photo/Nature/Nature_107-1600x1200 copy 12.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:38] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 12.jpg
+[2024-02-08 오전 7:28:38] Uploaded photo/Nature/Nature_107-1600x1200 copy 13.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:38] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 13.jpg
+[2024-02-08 오전 7:28:38] Uploaded photo/Nature/Nature_107-1600x1200 copy 14.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:38] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 14.jpg
+[2024-02-08 오전 7:28:38] Uploaded photo/Nature/Nature_107-1600x1200 copy 15.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:38] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 15.jpg
+[2024-02-08 오전 7:28:38] Uploaded photo/Nature/Nature_107-1600x1200 copy 16.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 16.jpg
+[2024-02-08 오전 7:28:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 17.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 17.jpg
+[2024-02-08 오전 7:28:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 18.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 18.jpg
+[2024-02-08 오전 7:28:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 19.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 19.jpg
+[2024-02-08 오전 7:28:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 2.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 2.jpg
+[2024-02-08 오전 7:28:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 20.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 20.jpg
+[2024-02-08 오전 7:28:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 3.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 3.jpg
+[2024-02-08 오전 7:28:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 4.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:40] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 4.jpg
+[2024-02-08 오전 7:28:40] Uploaded photo/Nature/Nature_107-1600x1200 copy 5.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:40] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 5.jpg
+[2024-02-08 오전 7:28:40] Uploaded photo/Nature/Nature_107-1600x1200 copy 6.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:40] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 6.jpg
+[2024-02-08 오전 7:28:40] Uploaded photo/Nature/Nature_107-1600x1200 copy 7.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:40] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 7.jpg
+[2024-02-08 오전 7:28:40] Uploaded photo/Nature/Nature_107-1600x1200 copy 8.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:40] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 8.jpg
+[2024-02-08 오전 7:28:40] Uploaded photo/Nature/Nature_107-1600x1200 copy 9.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:40] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 9.jpg
+[2024-02-08 오전 7:28:40] Uploaded photo/Nature/Nature_107-1600x1200 copy.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:41] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy.jpg
+[2024-02-08 오전 7:28:41] Uploaded photo/Nature/Nature_107-1600x1200.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:28:41] Kafka message sent for photo/Nature/Nature_107-1600x1200.jpg
+[2024-02-08 오전 7:28:41] Uploaded video/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:41] Kafka message sent for video/.DS_Store
+[2024-02-08 오전 7:28:41] Uploaded video/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:28:41] Kafka message sent for video/._.DS_Store
+[2024-02-08 오전 7:28:41] 접속 종료 127.0.0.1: Offline 
+
+[2024-02-08 오전 7:29:01] 접속 127.0.0.1 성공
+[2024-02-08 오전 7:29:01] Uploaded consumed/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:02] Kafka message sent for consumed/.DS_Store
+[2024-02-08 오전 7:29:02] Uploaded consumed/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:02] Kafka message sent for consumed/._.DS_Store
+[2024-02-08 오전 7:29:02] Uploaded consumed/._1GGG.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:02] Kafka message sent for consumed/._1GGG.csv
+[2024-02-08 오전 7:29:02] Uploaded consumed/._2HHH.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:02] Kafka message sent for consumed/._2HHH.csv
+[2024-02-08 오전 7:29:02] Uploaded consumed/._3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:02] Kafka message sent for consumed/._3.csv
+[2024-02-08 오전 7:29:02] Uploaded consumed/._4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:02] Kafka message sent for consumed/._4.csv
+[2024-02-08 오전 7:29:02] Uploaded consumed/._5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:02] Kafka message sent for consumed/._5.csv
+[2024-02-08 오전 7:29:02] Uploaded consumed/._6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:03] Kafka message sent for consumed/._6.csv
+[2024-02-08 오전 7:29:03] Uploaded consumed/._AA.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:03] Kafka message sent for consumed/._AA.csv
+[2024-02-08 오전 7:29:03] Uploaded consumed/._BB.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:03] Kafka message sent for consumed/._BB.csv
+[2024-02-08 오전 7:29:03] Uploaded consumed/._한글.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:03] Kafka message sent for consumed/._한글.csv
+[2024-02-08 오전 7:29:03] Uploaded consumed/1GGG.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:03] Kafka message sent for consumed/1GGG.csv
+[2024-02-08 오전 7:29:03] Uploaded consumed/2HHH.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:03] Kafka message sent for consumed/2HHH.csv
+[2024-02-08 오전 7:29:03] Uploaded consumed/3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:03] Kafka message sent for consumed/3.csv
+[2024-02-08 오전 7:29:03] Uploaded consumed/4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:03] Kafka message sent for consumed/4.csv
+[2024-02-08 오전 7:29:03] Uploaded consumed/5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:04] Kafka message sent for consumed/5.csv
+[2024-02-08 오전 7:29:04] Uploaded consumed/6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:04] Kafka message sent for consumed/6.csv
+[2024-02-08 오전 7:29:04] Uploaded consumed/AA.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:04] Kafka message sent for consumed/AA.csv
+[2024-02-08 오전 7:29:04] Uploaded consumed/BB.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:04] Kafka message sent for consumed/BB.csv
+[2024-02-08 오전 7:29:04] Uploaded consumed/한글.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:04] Kafka message sent for consumed/한글.csv
+[2024-02-08 오전 7:29:04] Uploaded csv/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:04] Kafka message sent for csv/.DS_Store
+[2024-02-08 오전 7:29:04] Uploaded csv/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:04] Kafka message sent for csv/._.DS_Store
+[2024-02-08 오전 7:29:04] Uploaded csv/broken/._Corrupt.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:05] Kafka message sent for csv/broken/._Corrupt.csv
+[2024-02-08 오전 7:29:05] Uploaded csv/broken/Corrupt.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:05] Kafka message sent for csv/broken/Corrupt.csv
+[2024-02-08 오전 7:29:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 10.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:05] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 10.csv
+[2024-02-08 오전 7:29:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 11.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:05] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 11.csv
+[2024-02-08 오전 7:29:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 12.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:05] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 12.csv
+[2024-02-08 오전 7:29:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 13.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:05] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 13.csv
+[2024-02-08 오전 7:29:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 14.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:05] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 14.csv
+[2024-02-08 오전 7:29:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 15.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:05] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 15.csv
+[2024-02-08 오전 7:29:05] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 16.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 16.csv
+[2024-02-08 오전 7:29:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 17.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 17.csv
+[2024-02-08 오전 7:29:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 18.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 18.csv
+[2024-02-08 오전 7:29:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 19.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 19.csv
+[2024-02-08 오전 7:29:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 2.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 2.csv
+[2024-02-08 오전 7:29:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 20.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 20.csv
+[2024-02-08 오전 7:29:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 21.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:06] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 21.txt
+[2024-02-08 오전 7:29:06] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 22.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 22.txt
+[2024-02-08 오전 7:29:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 23.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 23.txt
+[2024-02-08 오전 7:29:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 24.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 24.txt
+[2024-02-08 오전 7:29:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 25.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 25.txt
+[2024-02-08 오전 7:29:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 26.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 26.txt
+[2024-02-08 오전 7:29:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 27.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 27.txt
+[2024-02-08 오전 7:29:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 28.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 28.txt
+[2024-02-08 오전 7:29:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 29.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:07] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 29.txt
+[2024-02-08 오전 7:29:07] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 3.csv
+[2024-02-08 오전 7:29:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 30.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 30.txt
+[2024-02-08 오전 7:29:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 4.csv
+[2024-02-08 오전 7:29:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 5.csv
+[2024-02-08 오전 7:29:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 6.csv
+[2024-02-08 오전 7:29:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 7.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 7.csv
+[2024-02-08 오전 7:29:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 8.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:08] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 8.csv
+[2024-02-08 오전 7:29:08] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 9.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:09] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy 9.csv
+[2024-02-08 오전 7:29:09] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:09] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets copy.csv
+[2024-02-08 오전 7:29:09] Uploaded csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:09] Kafka message sent for csv/withHeader/._2023년03월08일_14시_HeaderInAlphabets.csv
+[2024-02-08 오전 7:29:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 10.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:09] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 10.csv
+[2024-02-08 오전 7:29:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 11.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:09] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 11.csv
+[2024-02-08 오전 7:29:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 12.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:09] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 12.csv
+[2024-02-08 오전 7:29:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 13.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:09] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 13.csv
+[2024-02-08 오전 7:29:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 14.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:09] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 14.csv
+[2024-02-08 오전 7:29:09] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 15.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 15.csv
+[2024-02-08 오전 7:29:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 16.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 16.csv
+[2024-02-08 오전 7:29:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 17.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 17.csv
+[2024-02-08 오전 7:29:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 18.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 18.csv
+[2024-02-08 오전 7:29:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 19.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 19.csv
+[2024-02-08 오전 7:29:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 2.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 2.csv
+[2024-02-08 오전 7:29:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 20.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:10] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 20.csv
+[2024-02-08 오전 7:29:10] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 21.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 21.txt
+[2024-02-08 오전 7:29:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 22.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 22.txt
+[2024-02-08 오전 7:29:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 23.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 23.txt
+[2024-02-08 오전 7:29:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 24.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 24.txt
+[2024-02-08 오전 7:29:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 25.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 25.txt
+[2024-02-08 오전 7:29:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 26.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 26.txt
+[2024-02-08 오전 7:29:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 27.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 27.txt
+[2024-02-08 오전 7:29:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 28.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:11] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 28.txt
+[2024-02-08 오전 7:29:11] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 29.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 29.txt
+[2024-02-08 오전 7:29:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 3.csv
+[2024-02-08 오전 7:29:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 30.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 30.txt
+[2024-02-08 오전 7:29:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 4.csv
+[2024-02-08 오전 7:29:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 5.csv
+[2024-02-08 오전 7:29:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 6.csv
+[2024-02-08 오전 7:29:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 7.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:12] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 7.csv
+[2024-02-08 오전 7:29:12] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 8.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:13] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 8.csv
+[2024-02-08 오전 7:29:13] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 9.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:13] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy 9.csv
+[2024-02-08 오전 7:29:13] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:13] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets copy.csv
+[2024-02-08 오전 7:29:13] Uploaded csv/withHeader/2023년03월08일_14시_HeaderInAlphabets.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:13] Kafka message sent for csv/withHeader/2023년03월08일_14시_HeaderInAlphabets.csv
+[2024-02-08 오전 7:29:13] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 10.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:13] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 10.csv
+[2024-02-08 오전 7:29:13] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 11.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:13] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 11.csv
+[2024-02-08 오전 7:29:13] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 12.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:13] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 12.csv
+[2024-02-08 오전 7:29:13] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 13.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:13] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 13.csv
+[2024-02-08 오전 7:29:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 14.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 14.csv
+[2024-02-08 오전 7:29:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 15.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 15.txt
+[2024-02-08 오전 7:29:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 16.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 16.txt
+[2024-02-08 오전 7:29:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 17.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 17.txt
+[2024-02-08 오전 7:29:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 18.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 18.txt
+[2024-02-08 오전 7:29:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 19.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 19.txt
+[2024-02-08 오전 7:29:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 2.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:14] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 2.csv
+[2024-02-08 오전 7:29:14] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 20.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 20.txt
+[2024-02-08 오전 7:29:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 3.csv
+[2024-02-08 오전 7:29:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 4.csv
+[2024-02-08 오전 7:29:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 5.csv
+[2024-02-08 오전 7:29:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 6.csv
+[2024-02-08 오전 7:29:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 7.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 7.csv
+[2024-02-08 오전 7:29:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 8.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:15] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 8.csv
+[2024-02-08 오전 7:29:15] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 9.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:16] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy 9.csv
+[2024-02-08 오전 7:29:16] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:16] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean copy.csv
+[2024-02-08 오전 7:29:16] Uploaded csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:16] Kafka message sent for csv/withoutHeader/._2023년03월08일_14시_HeaderInKorean.csv
+[2024-02-08 오전 7:29:16] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 10.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:16] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 10.csv
+[2024-02-08 오전 7:29:16] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 11.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:16] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 11.csv
+[2024-02-08 오전 7:29:16] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 12.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:16] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 12.csv
+[2024-02-08 오전 7:29:16] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 13.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:16] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 13.csv
+[2024-02-08 오전 7:29:16] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 14.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 14.csv
+[2024-02-08 오전 7:29:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 15.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 15.txt
+[2024-02-08 오전 7:29:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 16.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 16.txt
+[2024-02-08 오전 7:29:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 17.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 17.txt
+[2024-02-08 오전 7:29:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 18.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 18.txt
+[2024-02-08 오전 7:29:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 19.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 19.txt
+[2024-02-08 오전 7:29:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 2.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 2.csv
+[2024-02-08 오전 7:29:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 20.txt to bucket file-lake-consumer
+[2024-02-08 오전 7:29:17] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 20.txt
+[2024-02-08 오전 7:29:17] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 3.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 3.csv
+[2024-02-08 오전 7:29:18] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 4.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 4.csv
+[2024-02-08 오전 7:29:18] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 5.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 5.csv
+[2024-02-08 오전 7:29:18] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 6.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 6.csv
+[2024-02-08 오전 7:29:18] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 7.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 7.csv
+[2024-02-08 오전 7:29:18] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 8.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 8.csv
+[2024-02-08 오전 7:29:18] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 9.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:18] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy 9.csv
+[2024-02-08 오전 7:29:18] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:19] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean copy.csv
+[2024-02-08 오전 7:29:19] Uploaded csv/withoutHeader/2023년03월08일_14시_HeaderInKorean.csv to bucket file-lake-consumer
+[2024-02-08 오전 7:29:19] Kafka message sent for csv/withoutHeader/2023년03월08일_14시_HeaderInKorean.csv
+[2024-02-08 오전 7:29:19] Uploaded json/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:19] Kafka message sent for json/.DS_Store
+[2024-02-08 오전 7:29:19] Uploaded json/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:19] Kafka message sent for json/._.DS_Store
+[2024-02-08 오전 7:29:19] Uploaded json/all/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:19] Kafka message sent for json/all/.DS_Store
+[2024-02-08 오전 7:29:19] Uploaded json/all/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:19] Kafka message sent for json/all/._.DS_Store
+[2024-02-08 오전 7:29:19] Uploaded json/all/._array copy 0.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:19] Kafka message sent for json/all/._array copy 0.json
+[2024-02-08 오전 7:29:19] Uploaded json/all/._array copy 1.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:20] Kafka message sent for json/all/._array copy 1.json
+[2024-02-08 오전 7:29:20] Uploaded json/all/._array copy 10.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:20] Kafka message sent for json/all/._array copy 10.json
+[2024-02-08 오전 7:29:20] Uploaded json/all/._array copy 11.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:20] Kafka message sent for json/all/._array copy 11.json
+[2024-02-08 오전 7:29:20] Uploaded json/all/._array copy 12.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:20] Kafka message sent for json/all/._array copy 12.json
+[2024-02-08 오전 7:29:20] Uploaded json/all/._array copy 13.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:20] Kafka message sent for json/all/._array copy 13.json
+[2024-02-08 오전 7:29:20] Uploaded json/all/._array copy 14.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:20] Kafka message sent for json/all/._array copy 14.json
+[2024-02-08 오전 7:29:20] Uploaded json/all/._array copy 15.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:20] Kafka message sent for json/all/._array copy 15.json
+[2024-02-08 오전 7:29:20] Uploaded json/all/._array copy 2.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:20] Kafka message sent for json/all/._array copy 2.json
+[2024-02-08 오전 7:29:20] Uploaded json/all/._array copy 3.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:21] Kafka message sent for json/all/._array copy 3.json
+[2024-02-08 오전 7:29:21] Uploaded json/all/._array copy 4.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:21] Kafka message sent for json/all/._array copy 4.json
+[2024-02-08 오전 7:29:21] Uploaded json/all/._array copy 5.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:21] Kafka message sent for json/all/._array copy 5.json
+[2024-02-08 오전 7:29:21] Uploaded json/all/._array copy 6.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:21] Kafka message sent for json/all/._array copy 6.json
+[2024-02-08 오전 7:29:21] Uploaded json/all/._array copy 7.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:21] Kafka message sent for json/all/._array copy 7.json
+[2024-02-08 오전 7:29:21] Uploaded json/all/._array copy 8.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:21] Kafka message sent for json/all/._array copy 8.json
+[2024-02-08 오전 7:29:21] Uploaded json/all/._array copy 9.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:21] Kafka message sent for json/all/._array copy 9.json
+[2024-02-08 오전 7:29:21] Uploaded json/all/array copy 0.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:21] Kafka message sent for json/all/array copy 0.json
+[2024-02-08 오전 7:29:22] Uploaded json/all/array copy 1.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:22] Kafka message sent for json/all/array copy 1.json
+[2024-02-08 오전 7:29:22] Uploaded json/all/array copy 10.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:22] Kafka message sent for json/all/array copy 10.json
+[2024-02-08 오전 7:29:22] Uploaded json/all/array copy 11.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:22] Kafka message sent for json/all/array copy 11.json
+[2024-02-08 오전 7:29:22] Uploaded json/all/array copy 12.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:22] Kafka message sent for json/all/array copy 12.json
+[2024-02-08 오전 7:29:22] Uploaded json/all/array copy 13.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:22] Kafka message sent for json/all/array copy 13.json
+[2024-02-08 오전 7:29:22] Uploaded json/all/array copy 14.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:22] Kafka message sent for json/all/array copy 14.json
+[2024-02-08 오전 7:29:22] Uploaded json/all/array copy 15.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:22] Kafka message sent for json/all/array copy 15.json
+[2024-02-08 오전 7:29:22] Uploaded json/all/array copy 2.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:23] Kafka message sent for json/all/array copy 2.json
+[2024-02-08 오전 7:29:23] Uploaded json/all/array copy 3.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:23] Kafka message sent for json/all/array copy 3.json
+[2024-02-08 오전 7:29:23] Uploaded json/all/array copy 4.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:23] Kafka message sent for json/all/array copy 4.json
+[2024-02-08 오전 7:29:23] Uploaded json/all/array copy 5.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:23] Kafka message sent for json/all/array copy 5.json
+[2024-02-08 오전 7:29:23] Uploaded json/all/array copy 6.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:23] Kafka message sent for json/all/array copy 6.json
+[2024-02-08 오전 7:29:23] Uploaded json/all/array copy 7.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:23] Kafka message sent for json/all/array copy 7.json
+[2024-02-08 오전 7:29:23] Uploaded json/all/array copy 8.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:23] Kafka message sent for json/all/array copy 8.json
+[2024-02-08 오전 7:29:23] Uploaded json/all/array copy 9.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:23] Kafka message sent for json/all/array copy 9.json
+[2024-02-08 오전 7:29:23] Uploaded json/selected_key/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:24] Kafka message sent for json/selected_key/.DS_Store
+[2024-02-08 오전 7:29:24] Uploaded json/selected_key/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:24] Kafka message sent for json/selected_key/._.DS_Store
+[2024-02-08 오전 7:29:24] Uploaded json/selected_key/._complex copy 0.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:24] Kafka message sent for json/selected_key/._complex copy 0.json
+[2024-02-08 오전 7:29:24] Uploaded json/selected_key/._complex copy 1.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:24] Kafka message sent for json/selected_key/._complex copy 1.json
+[2024-02-08 오전 7:29:24] Uploaded json/selected_key/._complex copy 10.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:24] Kafka message sent for json/selected_key/._complex copy 10.json
+[2024-02-08 오전 7:29:24] Uploaded json/selected_key/._complex copy 11.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:24] Kafka message sent for json/selected_key/._complex copy 11.json
+[2024-02-08 오전 7:29:24] Uploaded json/selected_key/._complex copy 12.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:24] Kafka message sent for json/selected_key/._complex copy 12.json
+[2024-02-08 오전 7:29:24] Uploaded json/selected_key/._complex copy 13.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:24] Kafka message sent for json/selected_key/._complex copy 13.json
+[2024-02-08 오전 7:29:24] Uploaded json/selected_key/._complex copy 14.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:25] Kafka message sent for json/selected_key/._complex copy 14.json
+[2024-02-08 오전 7:29:25] Uploaded json/selected_key/._complex copy 15.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:25] Kafka message sent for json/selected_key/._complex copy 15.json
+[2024-02-08 오전 7:29:25] Uploaded json/selected_key/._complex copy 2.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:25] Kafka message sent for json/selected_key/._complex copy 2.json
+[2024-02-08 오전 7:29:25] Uploaded json/selected_key/._complex copy 3.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:25] Kafka message sent for json/selected_key/._complex copy 3.json
+[2024-02-08 오전 7:29:25] Uploaded json/selected_key/._complex copy 4.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:25] Kafka message sent for json/selected_key/._complex copy 4.json
+[2024-02-08 오전 7:29:25] Uploaded json/selected_key/._complex copy 5.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:25] Kafka message sent for json/selected_key/._complex copy 5.json
+[2024-02-08 오전 7:29:25] Uploaded json/selected_key/._complex copy 6.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:25] Kafka message sent for json/selected_key/._complex copy 6.json
+[2024-02-08 오전 7:29:25] Uploaded json/selected_key/._complex copy 7.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:25] Kafka message sent for json/selected_key/._complex copy 7.json
+[2024-02-08 오전 7:29:25] Uploaded json/selected_key/._complex copy 8.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:26] Kafka message sent for json/selected_key/._complex copy 8.json
+[2024-02-08 오전 7:29:26] Uploaded json/selected_key/._complex copy 9.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:26] Kafka message sent for json/selected_key/._complex copy 9.json
+[2024-02-08 오전 7:29:26] Uploaded json/selected_key/complex copy 0.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:26] Kafka message sent for json/selected_key/complex copy 0.json
+[2024-02-08 오전 7:29:26] Uploaded json/selected_key/complex copy 1.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:26] Kafka message sent for json/selected_key/complex copy 1.json
+[2024-02-08 오전 7:29:26] Uploaded json/selected_key/complex copy 10.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:26] Kafka message sent for json/selected_key/complex copy 10.json
+[2024-02-08 오전 7:29:26] Uploaded json/selected_key/complex copy 11.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:26] Kafka message sent for json/selected_key/complex copy 11.json
+[2024-02-08 오전 7:29:26] Uploaded json/selected_key/complex copy 12.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:26] Kafka message sent for json/selected_key/complex copy 12.json
+[2024-02-08 오전 7:29:26] Uploaded json/selected_key/complex copy 13.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:26] Kafka message sent for json/selected_key/complex copy 13.json
+[2024-02-08 오전 7:29:26] Uploaded json/selected_key/complex copy 14.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:27] Kafka message sent for json/selected_key/complex copy 14.json
+[2024-02-08 오전 7:29:27] Uploaded json/selected_key/complex copy 15.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:27] Kafka message sent for json/selected_key/complex copy 15.json
+[2024-02-08 오전 7:29:27] Uploaded json/selected_key/complex copy 2.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:27] Kafka message sent for json/selected_key/complex copy 2.json
+[2024-02-08 오전 7:29:27] Uploaded json/selected_key/complex copy 3.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:27] Kafka message sent for json/selected_key/complex copy 3.json
+[2024-02-08 오전 7:29:27] Uploaded json/selected_key/complex copy 4.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:27] Kafka message sent for json/selected_key/complex copy 4.json
+[2024-02-08 오전 7:29:27] Uploaded json/selected_key/complex copy 5.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:27] Kafka message sent for json/selected_key/complex copy 5.json
+[2024-02-08 오전 7:29:27] Uploaded json/selected_key/complex copy 6.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:27] Kafka message sent for json/selected_key/complex copy 6.json
+[2024-02-08 오전 7:29:27] Uploaded json/selected_key/complex copy 7.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:27] Kafka message sent for json/selected_key/complex copy 7.json
+[2024-02-08 오전 7:29:27] Uploaded json/selected_key/complex copy 8.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:28] Kafka message sent for json/selected_key/complex copy 8.json
+[2024-02-08 오전 7:29:28] Uploaded json/selected_key/complex copy 9.json to bucket file-lake-consumer
+[2024-02-08 오전 7:29:28] Kafka message sent for json/selected_key/complex copy 9.json
+[2024-02-08 오전 7:29:28] Uploaded photo/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:28] Kafka message sent for photo/.DS_Store
+[2024-02-08 오전 7:29:28] Uploaded photo/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:28] Kafka message sent for photo/._.DS_Store
+[2024-02-08 오전 7:29:28] Uploaded photo/Apple/._Apple_PNG12458 copy 10.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:28] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 10.png
+[2024-02-08 오전 7:29:28] Uploaded photo/Apple/._Apple_PNG12458 copy 11.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:28] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 11.png
+[2024-02-08 오전 7:29:28] Uploaded photo/Apple/._Apple_PNG12458 copy 12.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:28] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 12.png
+[2024-02-08 오전 7:29:28] Uploaded photo/Apple/._Apple_PNG12458 copy 13.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 13.png
+[2024-02-08 오전 7:29:29] Uploaded photo/Apple/._Apple_PNG12458 copy 14.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 14.png
+[2024-02-08 오전 7:29:29] Uploaded photo/Apple/._Apple_PNG12458 copy 15.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 15.png
+[2024-02-08 오전 7:29:29] Uploaded photo/Apple/._Apple_PNG12458 copy 16.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 16.png
+[2024-02-08 오전 7:29:29] Uploaded photo/Apple/._Apple_PNG12458 copy 17.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 17.png
+[2024-02-08 오전 7:29:29] Uploaded photo/Apple/._Apple_PNG12458 copy 18.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 18.png
+[2024-02-08 오전 7:29:29] Uploaded photo/Apple/._Apple_PNG12458 copy 19.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 19.png
+[2024-02-08 오전 7:29:29] Uploaded photo/Apple/._Apple_PNG12458 copy 2.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:29] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 2.png
+[2024-02-08 오전 7:29:29] Uploaded photo/Apple/._Apple_PNG12458 copy 20.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 20.png
+[2024-02-08 오전 7:29:30] Uploaded photo/Apple/._Apple_PNG12458 copy 3.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 3.png
+[2024-02-08 오전 7:29:30] Uploaded photo/Apple/._Apple_PNG12458 copy 4.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 4.png
+[2024-02-08 오전 7:29:30] Uploaded photo/Apple/._Apple_PNG12458 copy 5.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 5.png
+[2024-02-08 오전 7:29:30] Uploaded photo/Apple/._Apple_PNG12458 copy 6.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 6.png
+[2024-02-08 오전 7:29:30] Uploaded photo/Apple/._Apple_PNG12458 copy 7.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 7.png
+[2024-02-08 오전 7:29:30] Uploaded photo/Apple/._Apple_PNG12458 copy 8.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:30] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 8.png
+[2024-02-08 오전 7:29:30] Uploaded photo/Apple/._Apple_PNG12458 copy 9.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:31] Kafka message sent for photo/Apple/._Apple_PNG12458 copy 9.png
+[2024-02-08 오전 7:29:31] Uploaded photo/Apple/._Apple_PNG12458 copy.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:31] Kafka message sent for photo/Apple/._Apple_PNG12458 copy.png
+[2024-02-08 오전 7:29:31] Uploaded photo/Apple/._Apple_PNG12458.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:31] Kafka message sent for photo/Apple/._Apple_PNG12458.png
+[2024-02-08 오전 7:29:31] Uploaded photo/Apple/Apple_PNG12458 copy 10.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:31] Kafka message sent for photo/Apple/Apple_PNG12458 copy 10.png
+[2024-02-08 오전 7:29:31] Uploaded photo/Apple/Apple_PNG12458 copy 11.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:31] Kafka message sent for photo/Apple/Apple_PNG12458 copy 11.png
+[2024-02-08 오전 7:29:31] Uploaded photo/Apple/Apple_PNG12458 copy 12.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:31] Kafka message sent for photo/Apple/Apple_PNG12458 copy 12.png
+[2024-02-08 오전 7:29:31] Uploaded photo/Apple/Apple_PNG12458 copy 13.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:32] Kafka message sent for photo/Apple/Apple_PNG12458 copy 13.png
+[2024-02-08 오전 7:29:32] Uploaded photo/Apple/Apple_PNG12458 copy 14.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:32] Kafka message sent for photo/Apple/Apple_PNG12458 copy 14.png
+[2024-02-08 오전 7:29:32] Uploaded photo/Apple/Apple_PNG12458 copy 15.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:32] Kafka message sent for photo/Apple/Apple_PNG12458 copy 15.png
+[2024-02-08 오전 7:29:32] Uploaded photo/Apple/Apple_PNG12458 copy 16.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:32] Kafka message sent for photo/Apple/Apple_PNG12458 copy 16.png
+[2024-02-08 오전 7:29:32] Uploaded photo/Apple/Apple_PNG12458 copy 17.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:32] Kafka message sent for photo/Apple/Apple_PNG12458 copy 17.png
+[2024-02-08 오전 7:29:32] Uploaded photo/Apple/Apple_PNG12458 copy 18.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:33] Kafka message sent for photo/Apple/Apple_PNG12458 copy 18.png
+[2024-02-08 오전 7:29:33] Uploaded photo/Apple/Apple_PNG12458 copy 19.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:33] Kafka message sent for photo/Apple/Apple_PNG12458 copy 19.png
+[2024-02-08 오전 7:29:33] Uploaded photo/Apple/Apple_PNG12458 copy 2.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:33] Kafka message sent for photo/Apple/Apple_PNG12458 copy 2.png
+[2024-02-08 오전 7:29:33] Uploaded photo/Apple/Apple_PNG12458 copy 20.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:33] Kafka message sent for photo/Apple/Apple_PNG12458 copy 20.png
+[2024-02-08 오전 7:29:33] Uploaded photo/Apple/Apple_PNG12458 copy 3.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:33] Kafka message sent for photo/Apple/Apple_PNG12458 copy 3.png
+[2024-02-08 오전 7:29:33] Uploaded photo/Apple/Apple_PNG12458 copy 4.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:34] Kafka message sent for photo/Apple/Apple_PNG12458 copy 4.png
+[2024-02-08 오전 7:29:34] Uploaded photo/Apple/Apple_PNG12458 copy 5.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:34] Kafka message sent for photo/Apple/Apple_PNG12458 copy 5.png
+[2024-02-08 오전 7:29:34] Uploaded photo/Apple/Apple_PNG12458 copy 6.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:34] Kafka message sent for photo/Apple/Apple_PNG12458 copy 6.png
+[2024-02-08 오전 7:29:34] Uploaded photo/Apple/Apple_PNG12458 copy 7.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:34] Kafka message sent for photo/Apple/Apple_PNG12458 copy 7.png
+[2024-02-08 오전 7:29:34] Uploaded photo/Apple/Apple_PNG12458 copy 8.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:34] Kafka message sent for photo/Apple/Apple_PNG12458 copy 8.png
+[2024-02-08 오전 7:29:34] Uploaded photo/Apple/Apple_PNG12458 copy 9.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:35] Kafka message sent for photo/Apple/Apple_PNG12458 copy 9.png
+[2024-02-08 오전 7:29:35] Uploaded photo/Apple/Apple_PNG12458 copy.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:35] Kafka message sent for photo/Apple/Apple_PNG12458 copy.png
+[2024-02-08 오전 7:29:35] Uploaded photo/Apple/Apple_PNG12458.png to bucket file-lake-consumer
+[2024-02-08 오전 7:29:35] Kafka message sent for photo/Apple/Apple_PNG12458.png
+[2024-02-08 오전 7:29:35] Uploaded photo/Nature/._Nature_107-1600x1200 copy 10.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:35] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 10.jpg
+[2024-02-08 오전 7:29:35] Uploaded photo/Nature/._Nature_107-1600x1200 copy 11.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:35] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 11.jpg
+[2024-02-08 오전 7:29:35] Uploaded photo/Nature/._Nature_107-1600x1200 copy 12.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:35] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 12.jpg
+[2024-02-08 오전 7:29:35] Uploaded photo/Nature/._Nature_107-1600x1200 copy 13.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:35] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 13.jpg
+[2024-02-08 오전 7:29:35] Uploaded photo/Nature/._Nature_107-1600x1200 copy 14.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 14.jpg
+[2024-02-08 오전 7:29:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 15.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 15.jpg
+[2024-02-08 오전 7:29:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 16.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 16.jpg
+[2024-02-08 오전 7:29:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 17.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 17.jpg
+[2024-02-08 오전 7:29:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 18.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 18.jpg
+[2024-02-08 오전 7:29:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 19.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 19.jpg
+[2024-02-08 오전 7:29:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 2.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 2.jpg
+[2024-02-08 오전 7:29:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 20.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:36] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 20.jpg
+[2024-02-08 오전 7:29:36] Uploaded photo/Nature/._Nature_107-1600x1200 copy 3.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 3.jpg
+[2024-02-08 오전 7:29:37] Uploaded photo/Nature/._Nature_107-1600x1200 copy 4.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 4.jpg
+[2024-02-08 오전 7:29:37] Uploaded photo/Nature/._Nature_107-1600x1200 copy 5.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 5.jpg
+[2024-02-08 오전 7:29:37] Uploaded photo/Nature/._Nature_107-1600x1200 copy 6.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 6.jpg
+[2024-02-08 오전 7:29:37] Uploaded photo/Nature/._Nature_107-1600x1200 copy 7.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 7.jpg
+[2024-02-08 오전 7:29:37] Uploaded photo/Nature/._Nature_107-1600x1200 copy 8.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 8.jpg
+[2024-02-08 오전 7:29:37] Uploaded photo/Nature/._Nature_107-1600x1200 copy 9.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy 9.jpg
+[2024-02-08 오전 7:29:37] Uploaded photo/Nature/._Nature_107-1600x1200 copy.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:37] Kafka message sent for photo/Nature/._Nature_107-1600x1200 copy.jpg
+[2024-02-08 오전 7:29:38] Uploaded photo/Nature/._Nature_107-1600x1200.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:38] Kafka message sent for photo/Nature/._Nature_107-1600x1200.jpg
+[2024-02-08 오전 7:29:38] Uploaded photo/Nature/Nature_107-1600x1200 copy 10.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:38] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 10.jpg
+[2024-02-08 오전 7:29:38] Uploaded photo/Nature/Nature_107-1600x1200 copy 11.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:38] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 11.jpg
+[2024-02-08 오전 7:29:38] Uploaded photo/Nature/Nature_107-1600x1200 copy 12.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:38] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 12.jpg
+[2024-02-08 오전 7:29:38] Uploaded photo/Nature/Nature_107-1600x1200 copy 13.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:38] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 13.jpg
+[2024-02-08 오전 7:29:38] Uploaded photo/Nature/Nature_107-1600x1200 copy 14.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:38] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 14.jpg
+[2024-02-08 오전 7:29:38] Uploaded photo/Nature/Nature_107-1600x1200 copy 15.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 15.jpg
+[2024-02-08 오전 7:29:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 16.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 16.jpg
+[2024-02-08 오전 7:29:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 17.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 17.jpg
+[2024-02-08 오전 7:29:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 18.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 18.jpg
+[2024-02-08 오전 7:29:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 19.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 19.jpg
+[2024-02-08 오전 7:29:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 2.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 2.jpg
+[2024-02-08 오전 7:29:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 20.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:39] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 20.jpg
+[2024-02-08 오전 7:29:39] Uploaded photo/Nature/Nature_107-1600x1200 copy 3.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:40] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 3.jpg
+[2024-02-08 오전 7:29:40] Uploaded photo/Nature/Nature_107-1600x1200 copy 4.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:40] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 4.jpg
+[2024-02-08 오전 7:29:40] Uploaded photo/Nature/Nature_107-1600x1200 copy 5.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:40] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 5.jpg
+[2024-02-08 오전 7:29:40] Uploaded photo/Nature/Nature_107-1600x1200 copy 6.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:40] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 6.jpg
+[2024-02-08 오전 7:29:40] Uploaded photo/Nature/Nature_107-1600x1200 copy 7.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:40] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 7.jpg
+[2024-02-08 오전 7:29:40] Uploaded photo/Nature/Nature_107-1600x1200 copy 8.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:40] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 8.jpg
+[2024-02-08 오전 7:29:40] Uploaded photo/Nature/Nature_107-1600x1200 copy 9.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:40] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy 9.jpg
+[2024-02-08 오전 7:29:40] Uploaded photo/Nature/Nature_107-1600x1200 copy.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:41] Kafka message sent for photo/Nature/Nature_107-1600x1200 copy.jpg
+[2024-02-08 오전 7:29:41] Uploaded photo/Nature/Nature_107-1600x1200.jpg to bucket file-lake-consumer
+[2024-02-08 오전 7:29:41] Kafka message sent for photo/Nature/Nature_107-1600x1200.jpg
+[2024-02-08 오전 7:29:41] Uploaded video/.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:41] Kafka message sent for video/.DS_Store
+[2024-02-08 오전 7:29:41] Uploaded video/._.DS_Store to bucket file-lake-consumer
+[2024-02-08 오전 7:29:41] Kafka message sent for video/._.DS_Store
+[2024-02-08 오전 7:29:41] 접속 종료 127.0.0.1: Offline 
+
+[2024-02-08 오전 7:29:49] App. 강제 종료 !
+
+[2024-02-08 오전 7:52:12] System Loading...
+[2024-02-08 오전 7:52:12] System Loading 완료
+[2024-02-08 오전 7:52:12] StartSecTimer was successful
+[2024-02-08 오전 7:52:12] 자동 접속 모드 전환
+[2024-02-08 오전 7:52:12] 접속 127.0.0.1 성공
+[2024-02-08 오전 7:52:13] Uploaded just_apple.png to bucket file-lake-consumer
+[2024-02-08 오전 7:52:14] Kafka message sent for just_apple.png
+[2024-02-08 오전 7:52:14] Uploaded hi/hi_apple.png to bucket file-lake-consumer
+[2024-02-08 오전 7:52:14] Kafka message sent for hi/hi_apple.png
+[2024-02-08 오전 7:52:14] 접속 종료 127.0.0.1: Offline 
+
+[2024-02-08 오전 7:55:01] App. 강제 종료 !
+
+[2024-02-08 오전 7:55:40] System Loading...
+[2024-02-08 오전 7:55:40] System Loading 완료
+[2024-02-08 오전 7:55:40] StartSecTimer was successful
+[2024-02-08 오전 7:55:40] 자동 접속 모드 전환
+[2024-02-08 오전 7:55:41] 접속 127.0.0.1 성공
+[2024-02-08 오전 7:55:41] Uploaded just_apple.png to bucket file-lake-consumer
+[2024-02-08 오전 7:55:42] Kafka message sent for just_apple.png
+[2024-02-08 오전 7:55:42] Uploaded hi/hi_apple.png to bucket file-lake-consumer
+[2024-02-08 오전 7:55:42] Kafka message sent for hi/hi_apple.png
+[2024-02-08 오전 7:55:42] 접속 종료 127.0.0.1: Offline 
+
+[2024-02-08 오전 7:56:01] App. 강제 종료 !
+

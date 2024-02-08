@@ -10,41 +10,27 @@ using System.Collections;
 using System.IO;
 using System.Timers;
 using System.Threading;
-
+using Newtonsoft.Json;
+using Amazon.S3;
+using System.Threading.Tasks;
 
 namespace SFTP
 {
 
     public partial class frmSFTPMain : Form
     {
-        //Connecting to the Object Storage
-        /*private int m_iPort = 30100;*/
         private int objectStoragePort = 32728;
-        private string topicMessageServer = "172.16.57.26:32272";
-        
-        
-        private readonly string masterPasswd = "hsnc123!";      //App master PW
-        public bool auto_ctrl_mode = false;                     //자동 접슥 모드
-
-        /*        public bool sftp_connected = false; // Connetion Status */
+        private readonly string masterPasswd = "hsnc123!";
+        public bool auto_ctrl_mode = false;
         public bool objectStorage_connected = false;
-        public bool topicMessage_sent = false;
 
-        public bool sync_processing = false;                    //Sync process on-going 
-        public int sec_count = 0;                               //Second counter (0~59) for secTimer
-        public readonly char[] delims = { '/', ',', '\'', '\\', ' ' };
+        public bool sync_processing = false;
+        public int sec_count = 0;
         public bool press_autoCtrl = false;
-
         public string SFTP_LogPath =  @"C:\NILE_Agent_logs\";
         public string SFTP_LogFileName = "AGENT_DATE.log";
         public uint log_line_cnt = 0;
         public uint MAX_LOG_LINES = 100;
-        public bool force_exit = false;
-
-        //System.Windows.Forms.Timer autoSyncTimer = new System.Windows.Forms.Timer();//for aurto sync process schedule delay of 1minute (One-shot)
-
-
-
 
         /*TextBox*/
         private string getText(TextBox txtb )
@@ -152,26 +138,25 @@ namespace SFTP
             }
         }
 
-
-
-
-
         // Main Features
-
-        /*private SftpProtocol m_sftpProtocol = null;*/
         private ObjectStorageProtocol objectStorage_Protocol = null;
 
         private KafkaProtocol topicMessage_Protocol = null;
 
+        private void InitializeKafkaProtocol()
+        {
+            topicMessage_Protocol = new KafkaProtocol(this.txtTopicServer.Text);
+        }
+
         public  void StartSecTimer()
         {
-            System.Windows.Forms.Timer secTimer = new System.Windows.Forms.Timer(); //runs every 1s
+            this.textBoxLogPath.Text = SFTP_LogPath;
+            System.Windows.Forms.Timer secTimer = new System.Windows.Forms.Timer();
             secTimer.Tick += new EventHandler(PerSecEvent);
-            secTimer.Interval = (int)1000;  //1s
+            secTimer.Interval = (int)1000;
             secTimer.Enabled = true;
             secTimer.Start();
         }
-
 
         public void PerSecEvent(Object myObject, EventArgs myEventArgs)
         {
@@ -182,17 +167,14 @@ namespace SFTP
             int today = CurrentTime.Day;
             setText(lbCurrentTime, CurrentTime.ToString());
 
-
-            // Press AutoCtrl after 3 seconds of delay when the Application starts
             if (auto_ctrl_mode == false && press_autoCtrl == true && sec_count == 2)
             {
                 press_autoCtrl = false;
-                this.btnAutoCtrl.PerformClick();    //Launches the auto button on application start
+                this.btnAutoCtrl.PerformClick();
                 sec_count = CurrentTime.Second;
             }
 
-
-            int curr_secs = sec_count + (60*CurrentTime.Minute) + (60*60* CurrentTime.Hour);    //Current Time in seconds (60*60*24 for a day)
+            int curr_secs = sec_count + (60*CurrentTime.Minute) + (60*60* CurrentTime.Hour);
             int sync_intrvl_total_secs = (60*Convert.ToInt32(SyncIntervalMinTextBox.Text)) + (60 * 60 * Convert.ToInt32(SyncIntervalHourTextBox.Text));
 
             if (auto_ctrl_mode && sync_intrvl_total_secs != 0)
@@ -202,24 +184,20 @@ namespace SFTP
                 rem_secs = rem_secs % 60;
                 labelCountDown.Text = "Count Down: " + rem_mins.ToString() + "분 " + rem_secs.ToString() + "초";
 
-                //Auto Ctrl 모드에서 현제 시간이 (분 단위로) Sync 설정 시간의 Multiple인 경우 1분 후 Sync 실행
                 if (curr_secs % sync_intrvl_total_secs == 0)
                 {
                     System.Windows.Forms.Timer tmrOnce = new System.Windows.Forms.Timer();
                     tmrOnce.Tick += new EventHandler(TimerEventAutoSync);
-                    tmrOnce.Interval = (int)(100); //0.5 sec after the specified time
+                    tmrOnce.Interval = (int)(100);
                     tmrOnce.Start();
                     rem_secs = 0;
                     rem_mins = 0;
                 }
             }
 
-            // Logging
             if ((CurrentTime.AddSeconds(1)).Day != today)
             {
                 SFTP_LogFileName = "NILE_Agent_" + CurrentTime.Year.ToString("D4") + "_" + CurrentTime.Month.ToString("D2") + "_" + CurrentTime.Day.ToString("D2") + ".log";
-
-                //log_upload_waiting = true;
             }
 
             if (++sec_count > 59)
@@ -256,8 +234,6 @@ namespace SFTP
             }
         }
 
-
-        // TODO 
         private void object_storage_defaults()
         { 
 
@@ -268,34 +244,17 @@ namespace SFTP
             setText(txtPassword, Properties.Settings.Default.OBJECTSTORAGE_PW);
         }
 
-
         private void load_all_default_params()
         {
-
             object_storage_defaults();
 
             setText(txtTopicServer, Properties.Settings.Default.BOOTSTRAP_SERVERS);
             setText(txtTopic, Properties.Settings.Default.TOPIC_NAME);
             setText(txtBrowser, Properties.Settings.Default.SYNC_DIR);
-            setText(txtUploadOnlyFileExt, Properties.Settings.Default.UPLOAD_ONLY_EXTENSIONS);
-            setText(txtCSV, Properties.Settings.Default.CSV_EXTENSIONS);
-            setText(txtJSON, Properties.Settings.Default.JSON_EXTENSIONS);
-            setText(txtTargetType, Properties.Settings.Default.TARGET_TYPE);
-            setText(txtTargetCatalog, Properties.Settings.Default.TARGET_CATALOG);
-            setText(txtTargetDatabase, Properties.Settings.Default.TARGET_DATABASE);
-            setText(txtTargetTableName, Properties.Settings.Default.TARGET_TABLE);
+            
             setText(SyncIntervalHourTextBox, Properties.Settings.Default.SYNC_INVL_HR);
             setText(SyncIntervalMinTextBox, Properties.Settings.Default.SYNC_INVL_MIN);
-            setText(txtCsvDelim, Properties.Settings.Default.CSV_DELIM);
-            setText(txtCsvCustomHeader, Properties.Settings.Default.CSV_CUSTOM_HEADER);
-            setText(txJsonSelectedKey, Properties.Settings.Default.JSON_SELECTED_KEY);
-            //setValue(LogSaveCheckBox, Properties.Settings.Default.LOG_SAVE);
-            //SaveObjectStorageCheckBox.Checked = Properties.Settings.Default.LOG_SAVE;
-            //SaveTopicServerCheckBox.Checked = Properties.Settings.Default.LOG_SAVE;
-            //saveTargetInfo.Checked = Properties.Settings.Default.LOG_SAVE;
 
-
-            // TODO : log files should be saved in a new folder created namely logs inside the path set by txtBrowser 
             if (SaveObjectStorageCheckBox.Checked)
             {
                 textBoxLogPath.Text =  SFTP_LogPath;
@@ -305,8 +264,6 @@ namespace SFTP
                 textBoxLogPath.Text = "";
                 textBoxLogPath.Clear();
             }
-
-
 
             if (validateLoginParam(promptErr: true))
                 setValue(SaveObjectStorageCheckBox, true);
@@ -328,27 +285,25 @@ namespace SFTP
             else
                 setValue(SaveTopicServerCheckBox, false);
 
-
         }
-
-
 
         public frmSFTPMain()
         {
             InitializeComponent();
-            frmSFTPMain.CheckForIllegalCrossThreadCalls = false;    // To avoid any Exception (We will take care of the errors separately)
-
+            frmSFTPMain.CheckForIllegalCrossThreadCalls = false;
+            topicMessage_Protocol = new KafkaProtocol(this.txtTopicServer.Text);
         }
 
-
-
-        // TODO 
         private void frmAgentMain_Load(object sender, EventArgs e)
         {
             appendLog("System Loading...");
             SFTP_LogPath = Directory.GetCurrentDirectory() + Path.DirectorySeparatorChar + "NILE_Agent_Logs" + Path.DirectorySeparatorChar;
+            SFTP_LogPath = @"C:\NILE_Agent_logs\";
             SFTP_LogFileName = "NILE_Agent_" + DateTime.Now.Year.ToString("D4") + "_" + DateTime.Now.Month.ToString("D2") + "_" + DateTime.Now.Day.ToString("D2") + ".log";
+            this.textBoxLogPath.Text = SFTP_LogPath + SFTP_LogFileName;
+
             load_all_default_params();
+            InitializeKafkaProtocol();
             appendLog("System Loading 완료");
 
             if (String.IsNullOrEmpty(this.txtRegion.Text))
@@ -359,33 +314,43 @@ namespace SFTP
             {
                 this.objectStorage_Protocol = new ObjectStorageProtocol(this.txtUser.Text, this.txtPassword.Text, this.txtRegion.Text);
             }
-                    
-            //Create tool-tip text for Controls
             createToolTipText(this.txtHost, "Address");
             createToolTipText(this.txtPort, "Port (0 ~ 65535)");
             createToolTipText(this.txtUser, "ID");
             createToolTipText(this.txtPassword, "PW");
-
             createToolTipText(this.txtBrowser, "Directory to Syncronize");
-
             createToolTipText(this.SyncIntervalHourTextBox, "Sync Interval Hour (Local Time)");
             createToolTipText(this.SyncIntervalMinTextBox, "Sync Interval Minutes (Local Time)");
-
-
             createToolTipText(this.SaveDirCheckBox, "Save Directory");
             createToolTipText(this.SaveObjectStorageCheckBox, "Save Info");
             createToolTipText(this.SaveScheduleCheckBox, "Save All Options");
 
-            //en_dis_option_selsecions();
             StartSecTimer();
 
             appendLog("StartSecTimer was successful");
 
 
-            press_autoCtrl = true;//Press the Auto button few secs after App Start 
+            if (AreSparkSettingsValid())
+            {
+                press_autoCtrl = true;
+                btnAutoCtrl.PerformClick();
+            }
+            else
+            {
+                appendLog("Spark settings are incomplete. Auto control is disabled.");
+            }
 
-            this.btnAutoCtrl.PerformClick();//Press the Auto button on App Start
+        }
 
+        private bool AreSparkSettingsValid()
+        {
+            string appName = Properties.Settings.Default.APP_NAME;
+            string setMaster = Properties.Settings.Default.SET_MASTER;
+            string sparkConfigs = Properties.Settings.Default.SPARK_CONFIGS;
+
+            return !string.IsNullOrEmpty(appName) &&
+                   !string.IsNullOrEmpty(setMaster) &&
+                   !string.IsNullOrEmpty(sparkConfigs);
         }
 
         private void createToolTipText(Control c, String s)
@@ -395,21 +360,15 @@ namespace SFTP
             toolTip.SetToolTip(c, s);
         }
 
-        private void initManualControl()
+        private void initDisconnectControl()
         {
             auto_ctrl_mode = false;
-
-            //Initialize Controls
             this.ObjectStorageGroupBox.Enabled = true;
             this.TopicServerGroupBox.Enabled = true;
             this.LocalDirGroupBox.Enabled = true;
-            this.FilePatternGroupBox.Enabled = true;
-            this.AdditionalOptionGroupBox.Enabled = true;
-            this.TargetInfoGroupBox.Enabled = true;
-            this.SparkConfigGroupBox.Enabled = true;
+            this.ETLGroupBox.Enabled = true;
             this.ScheduleGroupBox.Enabled = true;
    
-
         }
 
         private void storage_connect()
@@ -440,8 +399,6 @@ namespace SFTP
             objectStorage_connected = false;
         }
 
-
-        // This is the method to run when the timer is raised
         private void TimerEventAutoSync(Object myObject, EventArgs myEventArgs)
         {
             ((System.Windows.Forms.Timer)myObject).Stop();
@@ -461,7 +418,6 @@ namespace SFTP
             }
             catch (Exception exp)
             {
-                //Return Error - Notifies the user
                 object_storage_disconnect();
                 appendLog(this.objectStorage_Protocol.getErrorDes() + " Ex. :" + exp.ToString() + "\r\n");
                 initAutoControl();
@@ -469,20 +425,18 @@ namespace SFTP
 
         }
 
-        // Called when the AutoCtrl button is clicked  - this should include objectStorageProtocol
         private bool initAutoControl(bool promptErr = false)
         {
             Boolean init_sucess = false;
             if (validateLoginParam(promptErr) &&
                 validateDirectory(promptErr) &&
-                validateSyncOptionsParam(promptErr))
+                validateSyncOptionsParam(promptErr) &&
+                AreSparkSettingsValid())
             {
                 this.SaveObjectStorageCheckBox.Checked = true;
                 this.SaveTopicServerCheckBox.Checked = true;
                 this.SaveDirCheckBox.Checked = true;
-                this.SaveFileTypeCheckBox.Checked = true;
                 this.SaveScheduleCheckBox.Checked = true;
-
                 Properties.Settings.Default.Save();
 
                 auto_ctrl_mode = false;
@@ -493,14 +447,8 @@ namespace SFTP
                 this.ObjectStorageGroupBox.Enabled = false;
                 this.TopicServerGroupBox.Enabled = false;
                 this.LocalDirGroupBox.Enabled = false;
-                this.FilePatternGroupBox.Enabled = false;
                 this.ScheduleGroupBox.Enabled = false;
-                this.AdditionalOptionGroupBox.Enabled = false;
-                this.TargetInfoGroupBox.Enabled = false; 
-                this.SparkConfigGroupBox.Enabled = false;
-                this.CtrlModeGroupBox.Enabled = true;
-
-                //Firt Run (question: why do we need if statement here?)
+                this.ETLGroupBox.Enabled = false;
                 if (true)
                 {
 
@@ -520,8 +468,6 @@ namespace SFTP
 
         private void btnConnect_Click(object sender, EventArgs e)
         {
-
-            //Validate the parameter before connecting to the server
             if (validateLoginParam(promptErr: true))
             {
 
@@ -537,12 +483,9 @@ namespace SFTP
                     Properties.Settings.Default.Save();
                 }
 
-                //Post validate parameter
                 appendLog("Object Storage 접속 " + this.txtHost.Text);
-
-                //Connect to the Object Storage
                 bool blConnectResult = this.objectStorage_Protocol.ConnectToObjectStorage(this.txtHost.Text, this.objectStoragePort, this.txtUser.Text, this.txtPassword.Text, 120);
-                appendLog("why?");
+
                 if (!blConnectResult)
                 {
                     MessageBox.Show(this.objectStorage_Protocol.getErrorDes(),
@@ -553,7 +496,6 @@ namespace SFTP
                 }
                 else
                 {
-                    //Connection == True, Initialize
                     this.ObjectStorageGroupBox.Enabled = false;
                     this.btnDisconnect.Enabled = true;
                     objectStorage_connected = true;
@@ -642,7 +584,6 @@ namespace SFTP
             {
                 if (promptErr)
                 {
-                    //Show Warning
                     MessageBox.Show("필수 정보를 모두 입력해주세요.", "NILE Agent Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 blResult = false;
@@ -651,14 +592,12 @@ namespace SFTP
             {
                 try
                 {
-                    //Validate Port
                     this.objectStoragePort = Convert.ToInt32(this.txtPort.Text);
                     if (this.objectStoragePort < 1 && this.objectStoragePort > 65535)
                     {
 
                         if (promptErr)
                         {
-                            //Show Warning
                             MessageBox.Show("0 ~ 65535을 입력해주세요.", "NILE Agent Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                         blResult = false;
@@ -669,7 +608,6 @@ namespace SFTP
                     blResult = false;
                     if (promptErr)
                     {
-                        //Show Warning
                         MessageBox.Show("Integer 값을 입력해주세요.", "NILE Agent Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                     appendLog("EXCEPTION ERROR: " + this.objectStorage_Protocol.getErrorDes() + " exp :" + exp.ToString(), newline: true);
@@ -689,7 +627,6 @@ namespace SFTP
             {
                 if (promptErr)
                 {
-                    //show warning box
                     MessageBox.Show("필수 정보를 모두 입력해주세요.", "NILE Agent Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 blResult = false;
@@ -701,7 +638,6 @@ namespace SFTP
                     int sync_hr = 0;
                     int sync_min = 30;
 
-                    //Validate port
                     sync_hr = Convert.ToInt32(this.SyncIntervalHourTextBox.Text);
                     sync_min = Convert.ToInt32(this.SyncIntervalMinTextBox.Text);
 
@@ -752,13 +688,11 @@ namespace SFTP
         {
             bool blResult = true;
 
-            if (this.txtBrowser.Text.Trim().Equals(""))
+            if (string.IsNullOrWhiteSpace(this.txtBrowser.Text))
             {
-
                 if (promptErr)
                 {
-                    //show warning box
-                    MessageBox.Show("Directory 정보를 선택해주세요.", "NILE Agent Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Please select a directory.", "NILE Agent Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 blResult = false;
             }
@@ -766,37 +700,34 @@ namespace SFTP
             {
                 try
                 {
-                    //Validate Directory 
-                    if (!Directory.Exists(this.txtBrowser.Text))
+                    var normalizedPath = Path.GetFullPath(new Uri(this.txtBrowser.Text).LocalPath);
+                    normalizedPath = normalizedPath.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
+
+                    if (!Directory.Exists(normalizedPath))
                     {
                         if (promptErr)
                         {
                             MessageBox.Show("Directory Not Found!", "NILE Agent Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                         blResult = false;
-
                     }
-
                 }
                 catch (Exception exp)
                 {
                     blResult = false;
                     if (promptErr)
                     {
-                        MessageBox.Show("Directory Not Found! " + exp.ToString(), "NILE Agent Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("Error accessing directory: " + exp.Message, "NILE Agent Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
-
                 }
             }
             return blResult;
         }
 
+
         private void frmAgentMain_FormClosing(object sender, FormClosingEventArgs e)
         {
-
-            //Save the Log File before exit
             appendLog("App. 강제 종료 !\r\n");
-
             SFTP_LogFileName = "NILE_Agent_" + DateTime.Now.Year.ToString("D4") + "_" + DateTime.Now.Month.ToString("D2") + "_" + DateTime.Now.Day.ToString("D2") + ".log";
 
             try
@@ -811,28 +742,17 @@ namespace SFTP
             {
                 File.AppendAllText("NILE_Agent_ERR.txt", exp.ToString());
             }
-
-
-
-            //Before closing you should close the SFTP session to let free of any session running on the SFTP Server
             this.objectStorage_Protocol.DisconnectFromObjectStorage();
-
-            //Release all resources
             this.Dispose(true);
 
         }
 
         private void btnBrowser_Click(object sender, EventArgs e)
         {
-
-            //This button lets you choose file to upload, or to set Directory
-
-            FolderBrowserDialog openFolderDialog = new FolderBrowserDialog();//
-
-            DialogResult result = openFolderDialog.ShowDialog();//
+            FolderBrowserDialog openFolderDialog = new FolderBrowserDialog();
+            DialogResult result = openFolderDialog.ShowDialog();
             if (result == DialogResult.OK)
             {
-                //this.txtBrowser.Text = 
                 setText(this.txtBrowser, openFolderDialog.SelectedPath);
             }
             else
@@ -840,117 +760,185 @@ namespace SFTP
                 MessageBox.Show("경로 지정이 필요합니다.",
                     "NILE Agent Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-
         }
 
 
+        public class KafkaData
+        {
+            public string sparkConfigAppName { get; set; }
+            public string sparkConfigSetMaster { get; set; }
+            public string objectStoragePath { get; set; }
+            public string sourceType { get; set; }
+            public string fileName { get; set; }
+            public string fileExtension { get; set; }
+            public bool processETL { get; set; }
+            //csv
+            public bool csvHeader { get; set; }
+            public string csvCustomHeader { get; set; }
+            public string csvDelimiter { get; set; }
+            public string csvEncodingType { get; set; }
+            //json
+            public string jsonParseSelectedKey { get; set; }
+            //target table
+            public string targetType { get; set; }
+            public string targetCatalog { get; set; }
+            public string targetDatabase { get; set; }
+            public string targetTable { get; set; }
+            //others
+            public string startDateTime { get; set; }
+            public List<SparkConfigItem> sparkConfigs { get; set; }
+
+        }
+
+        private string GetRelativePath(string basePath, string targetPath)
+        {
+            if (!basePath.EndsWith(Path.DirectorySeparatorChar.ToString(), StringComparison.Ordinal))
+                basePath += Path.DirectorySeparatorChar;
+            Uri baseUri = new Uri(basePath);
+            Uri targetUri = new Uri(targetPath);
+
+            if (baseUri.IsBaseOf(targetUri))
+            {
+                Uri relativeUri = baseUri.MakeRelativeUri(targetUri);
+                string relativePath = Uri.UnescapeDataString(relativeUri.ToString()).Replace('/', Path.DirectorySeparatorChar);
+                return relativePath;
+            }
+            return targetPath;
+        }
 
 
         private void backgroundWorker_SyncFiles(object sender, DoWorkEventArgs e)
         {
+            if (!objectStorage_Protocol.ConnectToObjectStorage(this.txtHost.Text, this.objectStoragePort, this.txtUser.Text, this.txtPassword.Text, 120))
+            {
+                storage_connect();
+            }
 
             if ((string)e.Argument != "upload_only")
             {
-                //Connect to the SFTP Server
                 storage_connect();
             }
+
+            topicMessage_Protocol = new KafkaProtocol(this.txtTopicServer.Text);
 
             if (objectStorage_connected)
             {
                 if (validateDirectory())
                 {
                     sync_processing = true;
-                    /////////////////////////REOPEN THE FOLLOWING
-                    //SyncDirectoryRecurr();
 
-                    string directoryPath = this.txtBrowser.Text;
-                    string[] files = Directory.GetFiles(directoryPath);
-
-                    foreach (string file in files)
-                    {
-                        //bool uploadSuccess = objectStorage_Protocol.UploadFileToObjectStorage(directoryPath, this.txtBucket.Text, file);
+                    string baseDirectoryPath = this.txtBrowser.Text;
+                    string[] files = Directory.GetFiles(baseDirectoryPath, "*", SearchOption.AllDirectories);
+                    string csvExtensions = Properties.Settings.Default.CSV_EXTENSIONS ?? "";
+                    string jsonExtensions = Properties.Settings.Default.JSON_EXTENSIONS ?? "";
+                    var csvExtension = csvExtensions.Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries).Select(ext => ext.Trim()).ToList();
+                    var jsonExtension = jsonExtensions.Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries).Select(ext => ext.Trim()).ToList();
                     
-                        string fileName = Path.GetFileName(directoryPath); // Extracts the filename from the full path
-                        string objectName = fileName; // Or any custom logic to define object name in MinIO
-                        bool uploadSuccess = objectStorage_Protocol.UploadFileToObjectStorage(directoryPath, this.txtBucket.Text, objectName);
-                        if (uploadSuccess)
+                    int totalFiles = files.Length;
+                    for (int i = 0; i < totalFiles; i++)
+                    {
+                        string filePath = files[i];
+                        string relativePath = GetRelativePath(baseDirectoryPath, filePath);
+                        string objectKey = relativePath.Replace("\\", "/");
+                        string fileExtensionLower = Path.GetExtension(filePath).ToLower();
+
+                        if (!(fileExtensionLower.Equals(".csv") || fileExtensionLower.Equals(".json") || fileExtensionLower.Equals(".txt")))
                         {
-                            appendLog($"Uploaded {fileName}");
+                            bool fileExists = objectStorage_Protocol.CheckIfFileExists(this.txtBucket.Text, objectKey);
+                            if (fileExists)
+                            {
+                                appendLog($"File {objectKey},{fileExtensionLower} already exists in object storage. Skipping upload.");
+                            }
                         }
                         else
                         {
-                            appendLog($"Failed to upload {fileName}: {objectStorage_Protocol.getErrorDes()}");
-                        }
+                            bool uploadSuccess = objectStorage_Protocol.UploadFileToObjectStorage(filePath, this.txtBucket.Text, objectKey);
 
-                        if (uploadSuccess)
-                        {
-                            // Prepare data for Kafka
-                            SparkConfigPopUp popUp = new SparkConfigPopUp();
+                            string appName = Properties.Settings.Default.APP_NAME;
+                            string setMaster = Properties.Settings.Default.SET_MASTER;
+                            string sparkConfigsJson = Properties.Settings.Default.SPARK_CONFIGS;
+                            bool csvHeader = Properties.Settings.Default.CSV_HEADER;
+                            string csvCustomHeader = Properties.Settings.Default.CSV_CUSTOM_HEADER;
+                            string csvDelimiter = Properties.Settings.Default.CSV_DELIMITER;
+                            string csvEncodingType = Properties.Settings.Default.CSV_ENCODING_TYPE;
+                            string targetType = Properties.Settings.Default.TARGET_TYPE;
+                            string targetCatalog = Properties.Settings.Default.TARGET_CATALOG;
+                            string targetDatabase = Properties.Settings.Default.TARGET_DATABASE;
+                            string targetTable = Properties.Settings.Default.TARGET_TABLE;
+                            string jsonParseSelectedKey = Properties.Settings.Default.JSON_SELECTED_KEY;
 
-                            var data = new KafkaData
+                            List<SparkConfigItem> sparkConfigs = null;
+                            try
                             {
-                                SparkConfigAppName = "FILE_CSV_ETL",
-                                SparkConfigSetMaster = "local[*]",
-                                objectStoragePath = "s3a://file-lake-consumer",
-                                sourceType = "csv",
-                                fileName = "1.png",
-                                fileExtension = ".png",
-                                csvHeader = true,
-                                csvCustomHeader = null,
-                                csvDelimiter = ",",
-                                jsonParseSelectedKey = "",
-                                targetType = "iceberg",
-                                targetCatalog = "iceberg_catalog",
-                                targetDatabase = "file_to_lake",
-                                targetTable = "test_ingestion_agent_1",
-                                startDateTime = "2023-12-20T15:16:52.804",
-                                //SparkConfigAppName = popUp.AppName,
-                                //SparkConfigSetMaster = popUp.SetMaster,
-                                //objectStoragePath = "s3a://" + this.txtBucket.Text,
-                                //sourceType = "",
-                                //fileName = "",
-                                //fileExtension = "",
-                                //csvHeader = "",
-                                //csvCustomHeader = "",
-                                //csvDelimiter = "",
-                                //jsonParseSelectedKey = "",
-                                //targetType = "",
-                                //targetCatalog = "",
-                                //targetDatabase = "",
-                                //targetTable = "",
-                                //startDateTime = "",
-                                SparkConfigs = new List<SparkConfigItem>
+                                sparkConfigs = JsonConvert.DeserializeObject<List<SparkConfigItem>>(sparkConfigsJson);
+                            }
+                            catch (JsonException ex)
+                            {
+                                appendLog($"Failed to deserialize SPARK_CONFIGS: {ex.Message}");
+                            }
+
+                            if (uploadSuccess)
+                            {
+                                appendLog($"Uploaded {objectKey} to bucket {this.txtBucket.Text}");
+
+                                string fileExtension = Path.GetExtension(filePath).TrimStart('.');
+                                string fileName = Path.GetFileName(filePath);
+
+                                if (topicMessage_Protocol != null)
                                 {
-                                    new SparkConfigItem { Key = "spark.sql.extensions", Value = "org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions" },
-                                    new SparkConfigItem { Key = "spark.sql.catalog.spark_catalog", Value = "org.apache.iceberg.spark.SparkSessionCatalog" },
-                                    new SparkConfigItem { Key = "spark.sql.catalogImplementation", Value = "hive" },
-                                    new SparkConfigItem { Key = "spark.sql.catalog.spark_catalog.type", Value = "hive" },
-                                    new SparkConfigItem { Key = "spark.sql.catalog.iceberg_catalog", Value = "org.apache.iceberg.spark.SparkCatalog" },
-                                    new SparkConfigItem { Key = "spark.sql.catalog.iceberg_catalog.type", Value = "hive" },
-                                    new SparkConfigItem { Key = "spark.sql.catalog.iceberg_catalog.warehouse", Value = "s3a://iceberg/spark/" },
-                                    new SparkConfigItem { Key = "spark.sql.catalog.iceberg_catalog.s3.endpoint", Value = "http://172.16.57.21:32728" },
-                                    new SparkConfigItem { Key = "spark.sql.catalogImplementation", Value = "in-memory" },
-                                    new SparkConfigItem { Key = "spark.executor.heartbeatInterval", Value = "300000" },
-                                    new SparkConfigItem { Key = "spark.network.timeout", Value = "400000" },
-                                    new SparkConfigItem { Key = "hive.metastore.uris", Value = "thrift://172.16.57.21:31160" },
-                                    new SparkConfigItem { Key = "spark.hadoop.fs.s3a.access.key", Value = "nileadmin" },
-                                    new SparkConfigItem { Key = "spark.hadoop.fs.s3a.secret.key", Value = "nile20211201!" },
-                                    new SparkConfigItem { Key = "spark.hadoop.fs.s3a.impl", Value = "org.apache.hadoop.fs.s3a.S3AFileSystem" },
-                                    new SparkConfigItem { Key = "spark.hadoop.fs.s3a.endpoint", Value = "http://172.16.57.21:32728" },
-                                    new SparkConfigItem { Key = "spark.hadoop.fs.s3a.connection.ssl.enabled", Value = "false" },
-                                    new SparkConfigItem { Key = "spark.hadoop.fs.s3a.path.style.access", Value = "true" },
-                                    new SparkConfigItem { Key = "spark.hadoop.fs.s3a.attempts.maximum", Value = "1" },
-                                    new SparkConfigItem { Key = "spark.hadoop.fs.s3a.connection.establish.timeout", Value = "5000" },
-                                    new SparkConfigItem { Key = "spark.hadoop.fs.s3a.connection.timeout", Value = "10000" },
-                                    new SparkConfigItem { Key = "spark.sql.iceberg.format-version", Value = "2" }
+                                    KafkaData data = new KafkaData { };
+
+                                    data.sparkConfigAppName = appName;
+                                    data.sparkConfigSetMaster = setMaster;
+                                    data.objectStoragePath = "s3a://" + this.txtTopic.Text;
+                                    data.sourceType = fileExtension;
+                                    data.fileName = objectKey;
+                                    data.fileExtension = "." + fileExtension;
+                                    data.sparkConfigs = sparkConfigs;
+
+                                    if (csvExtension.Contains(fileExtension))
+                                    {
+                                        data = csvProcess(data, csvHeader, csvCustomHeader, csvDelimiter, csvEncodingType,
+                                            targetType, targetCatalog, targetDatabase, targetTable);
+                                    }
+                                    else if (jsonExtension.Contains(fileExtension))
+                                    {
+                                        data = jsonProcess(data, jsonParseSelectedKey,
+                                            targetType, targetCatalog, targetDatabase, targetTable);
+                                    }
+                                    else
+                                    {
+                                        data = defaultProcess(data);
+                                    }
+
+                                    try
+                                    {
+                                        string jsonData = JsonConvert.SerializeObject(data);
+                                        var key = "spark_task";
+                                        topicMessage_Protocol.UploadMessageToKafka(this.txtTopic.Text, key, jsonData, this.txtTopicServer.Text);
+
+                                        appendLog($"Kafka message sent for {objectKey}");
+                                    }
+                                    catch (Exception kafkaExp)
+                                    {
+                                        appendLog($"Failed to send Kafka message for {objectKey}: {kafkaExp.Message}");
+                                    }
+
                                 }
-                            };
+                                else
+                                {
+                                    appendLog("Kafka protocol is not initialized.");
+                                }
 
-                            var key = "spark_task";
-
-                            // Send message to Kafka
-                            topicMessage_Protocol.UploadMessageToKafkaAsync(this.txtTopic.Text, key, data).GetAwaiter().GetResult();
+                            }
+                            else
+                            {
+                                appendLog($"Failed to upload {objectKey}: {objectStorage_Protocol.getErrorDes()}");
+                            }
                         }
+
+                        int progressPercentage = (int)((i + 1) / (double)totalFiles * 100);
+                        backgroundWorker.ReportProgress(progressPercentage);
                     }
 
                     sync_processing = false;
@@ -958,7 +946,6 @@ namespace SFTP
                 else
                 {
                     appendLog("Invalid Directory!", newline: true);
-                    //  MessageBox.Show("Invalid Directory!!", "NILE Agent Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             else
@@ -966,12 +953,60 @@ namespace SFTP
                 appendLog("Unable to connect . . .  ", newline: true);
             }
 
-
             if ((string)e.Argument != "upload_only")
             {
-                //Disconnect from the SFTP Server
                 object_storage_disconnect();
             }
+        }
+
+        private KafkaData csvProcess(KafkaData data, bool csvHeader, string csvCustomHeader, string csvDelimiter, string csvEncodingType,
+                                        string targetType, string targetCatalog, string targetDatabase, string targetTable)
+        {
+            data.processETL = this.btnETL.Enabled;
+            data.csvHeader = csvHeader;
+            data.csvCustomHeader = csvCustomHeader;
+            data.csvDelimiter = csvDelimiter;
+            data.csvEncodingType = csvEncodingType;
+            data.targetType = targetType;
+            data.targetCatalog = targetCatalog;
+            data.targetDatabase = targetDatabase;
+            data.targetTable = targetTable;
+            data.jsonParseSelectedKey = null;
+            data.startDateTime = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss:fff");
+            return data;
+        }
+
+        private KafkaData jsonProcess(KafkaData data, string jsonParseSelectedKey,
+                                        string targetType, string targetCatalog, string targetDatabase, string targetTable)
+        {
+            data.processETL = this.btnETL.Enabled;
+            data.csvHeader = false;
+            data.csvCustomHeader = null;
+            data.csvDelimiter = null;
+            data.csvEncodingType = null;
+            data.targetType = targetType;
+            data.targetCatalog = targetCatalog;
+            data.targetDatabase = targetDatabase;
+            data.targetTable = targetTable;
+            data.jsonParseSelectedKey = jsonParseSelectedKey;
+            data.startDateTime = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss:fff");
+            return data;
+        }
+
+        private KafkaData defaultProcess(KafkaData data)
+        {
+            data.processETL = this.btnETL.Enabled;
+            data.csvHeader = false;
+            data.csvCustomHeader = null;
+            data.csvDelimiter = null;
+            data.csvEncodingType = null;
+            data.targetType = null;
+            data.targetCatalog = null;
+            data.targetDatabase = null;
+            data.targetTable = null;
+            data.jsonParseSelectedKey = null;
+            data.startDateTime = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss:fff");
+            return data;
         }
 
         private void backgroundWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
@@ -985,11 +1020,6 @@ namespace SFTP
         private void backgroundWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             lblStatus.Text = $"Upload 완료 {e.Result} %";
-            //appendLog(e.Result.ToString(), newline: true);
-            //appendLog(e.ToString(), newline: true);
-            //appendLog(".. ", newline: true);
-
-            //lblStatus.Text = "Upload 완료";
         }
 
 
@@ -1015,43 +1045,6 @@ namespace SFTP
 
         private void btnDisconnect_Click(object sender, EventArgs e)
         {
-            //Initialize Controls
-            if (objectStorage_connected)
-            {
-                this.ObjectStorageGroupBox.Enabled = true;
-                this.TopicServerGroupBox.Enabled = true;
-                this.btnDisconnect.Enabled = false;
-                appendLog("접속 종료 " + this.txtHost.Text);
-                this.objectStorage_Protocol.DisconnectFromObjectStorage();
-                appendLog("연결 끊김 ");
-                objectStorage_connected = false;
-
-                //initManualControl();
-            }
-        }
-
-        public void PrintDirectoryTree(string directory, int lvl, string lvlSeperator = "|-")
-        {
-
-            foreach (string f in Directory.GetFiles(directory))
-            {
-                appendLog(lvlSeperator + Path.GetFileName(f));
-            }
-
-            foreach (string d in Directory.GetDirectories(directory))
-            {
-                appendLog(lvlSeperator + "-" + Path.GetFileName(d));
-
-                if (lvl > 0)
-                {
-                    PrintDirectoryTree(d, lvl - 1, lvlSeperator + "-");
-                }
-            }
-        }
-
-
-        private void btnManualCtrl_Click(object sender, EventArgs e)
-        {
             if (auto_ctrl_mode)
             {
                 string testPW = PromptPW.ShowPWDialog();
@@ -1061,12 +1054,11 @@ namespace SFTP
                 }
                 else
                 {
-
+                    press_autoCtrl = false;
                     btnAutoCtrl.Enabled = true;
-                    btnManualCtrl.Enabled = false;
-                    //buttonCheckOptions.Enabled = false;
-
-                    initManualControl();
+                    btnDisconnect.Enabled = false;
+                    btnSpark.Enabled = true;
+                    initDisconnectControl();
                 }
             }
         }
@@ -1077,8 +1069,8 @@ namespace SFTP
             if (initAutoControl(promptErr: true))
             {
                 btnAutoCtrl.Enabled = false;
-                btnManualCtrl.Enabled = true;
-                //  buttonCheckOptions.Enabled = true;
+                btnDisconnect.Enabled = true;
+                btnSpark.Enabled = false;
             }
         }
 
@@ -1130,29 +1122,8 @@ namespace SFTP
                 {
                     Properties.Settings.Default.SYNC_INVL_HR = this.SyncIntervalHourTextBox.Text;
                     Properties.Settings.Default.SYNC_INVL_MIN = this.SyncIntervalMinTextBox.Text;
-                    // Properties.Settings.Default.FILE_PRE_1 = this.FirstCharTxtBox.Text;
-                    //  Properties.Settings.Default.FILE_TYPE = this.FileTypeCombobox.Text;
-
-                    //   Properties.Settings.Default.FILE_PRE_1 = this.FirstCharTxtBox.Text;
-                    //   Properties.Settings.Default.FILE_PRE_2 = this.SecondCharTxtBox.Text;
-                    //   Properties.Settings.Default.FILE_PRE_3 = this.ThirdCharTxtBox.Text;
-                    //   Properties.Settings.Default.FILE_PRE_4 = this.FourthCharTxtBox.Text;
-
-                    Properties.Settings.Default.SYNC_INVL_HR = this.SyncIntervalHourTextBox.Text;
-                    Properties.Settings.Default.SYNC_INVL_MIN = this.SyncIntervalMinTextBox.Text;
-                    //   Properties.Settings.Default.SYNC_DELAY = (uint)this.SyncDelayUpDown.Value;
                     Properties.Settings.Default.SYNC_DIR = this.txtBrowser.Text;
-
-                    //Properties.Settings.Default.FILE_PRE_NUM = (uint)this.numPrefix.Value;
-
-                    //    Properties.Settings.Default.DATE_TIME_FMT = this.comboBoxFormat.Text;
-                    //   Properties.Settings.Default.FILE_TYPE = this.FileTypeCombobox.Text;
-
-                    // Properties.Settings.Default.UTC_TO_LCL = this.UTCtoLocalCheckBox.Checked;
-                    // Properties.Settings.Default.ZIP_7Z = this.Zip7CheckBox.Checked;
-
                     Properties.Settings.Default.LOG_SAVE = this.LogSaveCheckBox.Checked;
-
                     Properties.Settings.Default.Save();
                 }
                 else
@@ -1196,130 +1167,6 @@ namespace SFTP
             Properties.Settings.Default.Save();
         }
 
-        void SyncDirectoryResultInterrupt(IAsyncResult result)
-        {
-            //appendLog(result.AsyncState.ToString());
-            // string formatString = (string)result.AsyncState;
-            //appendLog("cb: " + formatString);
-            if (result.IsCompleted)
-            {
-                // IEnumerable<System.IO.FileInfo> SyncFileInfo = null;
-
-                // SyncFileInfo = this.m_sftpProtocol.EndSynchronizeDirectory(result);
-                // appendLog("Done");
-                //  for (int j = 0; j < SyncFileInfo.Count(); j++)
-                {
-                    //      appendLog(SyncFileInfo.ElementAt(j).ToString());
-                }
-
-            }
-        }
-
-
-        /*
-        void SyncDirectoryRecurr()
-        {
-            string ParentDirFullPath = this.txtBrowser.Text;
-            string ServerParentFolder = this.txtTopicServer.Text;
-
-            long num_files = 0;
-            long num_Directories = 0;
-            IEnumerable<System.IO.FileInfo> SyncFileInfo = null;
-            List<string> DirListFullPath = null;
-            char clientDirectorySeparatorChar = Path.DirectorySeparatorChar;    // windows: \\
-            char serverDirectorySeparatorChar = Path.AltDirectorySeparatorChar; // linux: /
-
-
-
-            DirListFullPath = Directory.GetDirectories(ParentDirFullPath, "*", SearchOption.AllDirectories).ToList();
-            DirListFullPath.Insert(0, Path.GetFullPath(ParentDirFullPath) + Path.DirectorySeparatorChar); //
-
-            for (int i = 0; i < DirListFullPath.Count(); i++)
-            {
-                num_Directories++;
-                string[] fileEntries = Directory.GetFiles(DirListFullPath.ElementAt(i));
-                for (int j = 0; j < fileEntries.Count(); j++)
-                {
-                    num_files++;
-                }
-            }
-
-            appendLog(num_Directories.ToString() + "  Folder(s) 존재... ");
-            appendLog(num_files.ToString() + "  File(s) 존재... ");
-
-            if (objectStorage_connected)
-            {
-                long currDirNum = 0;
-                foreach (string eFullPath in DirListFullPath)
-                {
-                    IAsyncResult ar = null;
-                    AsyncCallback asyncCallback = new AsyncCallback(SyncDirectoryResultInterrupt);
-                    string WinClientPath = eFullPath.ToString().Replace(ParentDirFullPath + clientDirectorySeparatorChar, "");
-                    string ServerPath = ServerParentFolder + serverDirectorySeparatorChar + WinClientPath.Replace(clientDirectorySeparatorChar, serverDirectorySeparatorChar);
-                    // object state = null;
-                    //List<string> FileList = Directory.GetFiles(eFullPath, searchPattern).ToList();
-
-                    IEnumerable<Renci.SshNet.Sftp.SftpFile> lsServerDir = this.m_sftpProtocol.listFile(ServerPath);
-                    if (lsServerDir == null)
-                    {
-                        bool tst = this.m_sftpProtocol.creatingDirectory(ServerPath);
-                        if (tst == false)
-                        {
-                            appendLog(this.m_sftpProtocol.getErrorDes());
-                        }
-                    }
-
-                    //                    ar = this.m_sftpProtocol.BeginSyncDirectory(eFullPath, ServerPath, searchPattern, asyncCallback, null);
-                    //                    currDirNum++;
-                    //                    double percentage = (double)currDirNum / (double)(DirListFullPath.Count()) * 100;
-                    //if (backgroundWorker.IsBusy)
-                    //                    {
-                    //                        backgroundWorker.ReportProgress((int)percentage);
-                    //                    }
-
-                    if (force_exit)
-                    {
-                        //ar.AsyncWaitHandle.close();
-                        force_exit = false;
-                        return;
-                    }
-                    else
-                    {
-                        ar.AsyncWaitHandle.WaitOne(1000);
-                        SyncFileInfo = this.m_sftpProtocol.EndSynchronizeDirectory(ar);
-                        ar.AsyncWaitHandle.Close();
-                        // SyncFileInfo = this.m_sftpProtocol.SyncDirectory(DirListFullPath.ElementAt(i), ServerPath, "*");
-
-                        if (SyncFileInfo != null)
-                        {
-                            List<FileInfo> FileList = SyncFileInfo.ToList();
-                            foreach (FileInfo finfo in FileList)
-                            {
-                                appendLog(ServerPath + finfo.ToString());
-                            }
-
-                        }
-                    }
-                }
-            }
-        }
-        */
-        
-
-
-
-        private void SavefileTypeCheckBox_CheckedChanged(object sender, EventArgs e)
-        {
-            if(SaveFileTypeCheckBox.Checked)
-            {
-                Properties.Settings.Default.Save();
-            }
-        }
-
-        private void FilePatternCombobox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            SaveFileTypeCheckBox.Checked = false;
-        }
 
         private void comboBoxServerOS_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -1331,27 +1178,90 @@ namespace SFTP
             SaveTopicServerCheckBox.Checked = false;
         }
 
-        private void buttonForceClose_Click(object sender, EventArgs e)
+        private void btnETL_Click(object sender, EventArgs e)
         {
-            if (sync_processing)
+            string targetType = Properties.Settings.Default.TARGET_TYPE;
+            string targetCatalog = Properties.Settings.Default.TARGET_CATALOG;
+            string targetDatabase = Properties.Settings.Default.TARGET_DATABASE;
+            string targetTable = Properties.Settings.Default.TARGET_TABLE;
+            bool csvHeader = Properties.Settings.Default.CSV_HEADER;
+            string csvCustomHeader = Properties.Settings.Default.CSV_CUSTOM_HEADER;
+            string csvDelimiter = Properties.Settings.Default.CSV_DELIMITER;
+            string csvEncodingType = Properties.Settings.Default.CSV_ENCODING_TYPE;
+            string jsonParseSelectedKey = Properties.Settings.Default.JSON_SELECTED_KEY;
+            string csv = Properties.Settings.Default.CSV_EXTENSIONS;
+            string json = Properties.Settings.Default.JSON_EXTENSIONS;
+
+            ETLPopUp etlPopUp = new ETLPopUp(targetType, targetCatalog, targetDatabase, targetTable,
+            csvHeader, csvCustomHeader, csvDelimiter, csvEncodingType,
+            jsonParseSelectedKey, csv, json);
+
+            if (etlPopUp.ShowDialog() == DialogResult.OK)
             {
-                force_exit = true;
-                appendLog("작업(파일 업로드 및 토픽 생성) 강제 종료 !!!");
+                // Settings are saved within SparkSettings form, no need to save here again
+                // Any post-save actions can be handled here if necessary
             }
-            //Application.Exit();
         }
 
-        private void btnSparkConfig_Click(object sender, EventArgs e)
+        private void checkBoxETL_CheckedChanged(object sender, EventArgs e)
         {
-            SparkConfigPopUp  sparkConfigPopUp= new SparkConfigPopUp();
-
-            DialogResult result = sparkConfigPopUp.ShowDialog();
+            if (checkBoxETL.Checked)
+            {
+                btnETL.Enabled = true;
+            }
+            else
+            {
+                btnETL.Enabled = false;
+            }
+            
         }
 
-        private void toolTip1_Popup(object sender, PopupEventArgs e)
+        private void SaveTopicServerCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (SaveTopicServerCheckBox.Checked)
+            {
+                if (validateTopicServerParam(promptErr: true))
+                {
+                    Properties.Settings.Default.BOOTSTRAP_SERVERS = txtTopicServer.Text.Trim();
+                    Properties.Settings.Default.TOPIC_NAME = txtTopic.Text.Trim();
+                    Properties.Settings.Default.Save();
+                }
+                else
+                {
+                    SaveTopicServerCheckBox.Checked = false;
+                }
+            }
         }
+
+        private Boolean validateTopicServerParam(bool promptErr = false)
+        {
+            bool blResult = true;
+            if (txtTopicServer.Text.Trim().Equals("") || txtTopic.Text.Trim().Equals(""))
+            {
+                if (promptErr)
+                {
+                    MessageBox.Show("Please enter both Topic Server and Topic Name.", "NILE Agent Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                blResult = false;
+            }
+            return blResult;
+        }
+
+        private void btnSpark_Click(object sender, EventArgs e)
+        {
+            string currentAppName = Properties.Settings.Default.APP_NAME;
+            string currentSetMaster = Properties.Settings.Default.SET_MASTER;
+            string currentSparkConfigs = Properties.Settings.Default.SPARK_CONFIGS;
+
+            SparkSettings sparkPopUp = new SparkSettings(currentAppName, currentSetMaster, currentSparkConfigs);
+
+            if (sparkPopUp.ShowDialog() == DialogResult.OK)
+            {
+                // Settings are saved within SparkSettings form, no need to save here again
+                // Any post-save actions can be handled here if necessary
+            }
+        }
+
     }
 
 }

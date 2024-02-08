@@ -82,17 +82,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ETLPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ETLPopUp.Designer.cs">
+      <DependentUpon>ETLPopUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="KafkaData.cs" />
     <Compile Include="SparkConfigItem.cs" />
     <Compile Include="clsTopicMessageProtocol.cs" />
     <Compile Include="clsObjectStorageProtocol.cs" />
     <Compile Include="clsSftpProtocol.cs" />
-    <Compile Include="SparkConfigPopUp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SparkConfigPopUp.Designer.cs">
-      <DependentUpon>SparkConfigPopUp.cs</DependentUpon>
-    </Compile>
     <Compile Include="SFTPMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,11 +101,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="SparkConfigPopUp.resx">
-      <DependentUpon>SparkConfigPopUp.cs</DependentUpon>
+    <Compile Include="SparkSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SparkSettings.Designer.cs">
+      <DependentUpon>SparkSettings.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ETLPopUp.resx">
+      <DependentUpon>ETLPopUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SFTPMain.resx">
       <DependentUpon>SFTPMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -117,6 +124,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SparkSettings.resx">
+      <DependentUpon>SparkSettings.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -254,7 +254,7 @@ namespace SFTP.Properties {
 
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("test_csv_ingestion_tbl")]
+        [global::System.Configuration.DefaultSettingValueAttribute("test_object_transfer_etl")]
         public string TARGET_TABLE
         {
             get
@@ -270,21 +270,36 @@ namespace SFTP.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute(",")]
-        public string CSV_DELIM
+        public string CSV_DELIMITER
         {
             get
             {
-                return ((string)(this["CSV_DELIM"]));
+                return ((string)(this["CSV_DELIMITER"]));
             }
             set
             {
-                this["CSV_DELIM"] = value;
+                this["CSV_DELIMITER"] = value;
             }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("datetime,HP01_1_Plate_Temp,HP01_2_Plate_Temp,HP01_3_Plate_Temp,HP02_1_Plate_Temp,HP02_2_Plate_Temp,HP02_3_Plate_Temp,HP03_1_Plate_Temp,HP03_2_Plate_Temp,HP03_3_Plate_Temp,CP01_Plate_Temp,HP01_Sensr,HP01_Sensr_In,HP01_Sensr_Out,HP01_Sensr_Act,HP02_Sensr,HP02_Sensr_In,HP02_Sensr_Out,HP02_Sensr_Act,HP03_Sensr,HP03_Sensr_In,HP03_Sensr_Out,HP03_Sensr_Act,CP01_Sensr_Act,CP01_Sensr_2,CP01_Sensr_Act_10,CP01_Sensr_Act_11,HP03_Oven_Time,HP03_Oven_1_Act,HP03_Baking_Time,HP03_Plate_Temp,HP03_Oven_2_Time,HP03_Oven_2_Sensr,HP03_Oven_3_Sensr,HP03_Auto_Run_Step")]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool CSV_HEADER
+        {
+            get
+            {
+                return ((bool)(this["CSV_HEADER"]));
+            }
+            set
+            {
+                this["CSV_HEADER"] = value;
+            }
+        }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("testingHeader1, testingHeader2, testingHeader3")]
         public string CSV_CUSTOM_HEADER
         {
             get
@@ -299,7 +314,22 @@ namespace SFTP.Properties {
 
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("measurements.data")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EUC-KR")]
+        public string CSV_ENCODING_TYPE
+        {
+            get
+            {
+                return ((string)(this["CSV_ENCODING_TYPE"]));
+            }
+            set
+            {
+                this["CSV_ENCODING_TYPE"] = value;
+            }
+        }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string JSON_SELECTED_KEY
         {
             get
@@ -417,7 +447,35 @@ namespace SFTP.Properties {
             }
         }
 
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("OBJECT-TRANSFER-ETL")]
+        public string APP_NAME
+        {
+            get
+            {
+                return ((string)(this["APP_NAME"]));
+            }
+            set
+            {
+                this["APP_NAME"] = value;
+            }
+        }
 
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("local[*]")]
+        public string SET_MASTER
+        {
+            get
+            {
+                return ((string)(this["SET_MASTER"]));
+            }
+            set
+            {
+                this["SET_MASTER"] = value;
+            }
+        }
 
 
 

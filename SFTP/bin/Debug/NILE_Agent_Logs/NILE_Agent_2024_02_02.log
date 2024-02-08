@@ -1,0 +1,77 @@
+[2024-02-02 오후 2:22:43] System Loading...
+[2024-02-02 오후 2:22:51] System Loading 완료
+[2024-02-02 오후 2:22:51] StartSecTimer was successful
+[2024-02-02 오후 2:24:28] 자동 접속 모드 전환
+[2024-02-02 오후 2:24:28] 접속 127.0.0.1 성공
+[2024-02-02 오후 2:24:28] Uploaded just_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 2:24:39] Kafka message sent for just_apple.png
+[2024-02-02 오후 2:24:39] Uploaded hi/hi_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 2:24:49] Kafka message sent for hi/hi_apple.png
+[2024-02-02 오후 2:24:49] 접속 종료 127.0.0.1: Offline 
+
+[2024-02-02 오후 2:28:30] App. 강제 종료 !
+
+[2024-02-02 오후 2:28:38] System Loading...
+[2024-02-02 오후 2:28:38] System Loading 완료
+[2024-02-02 오후 2:28:38] StartSecTimer was successful
+[2024-02-02 오후 2:28:38] 자동 접속 모드 전환
+[2024-02-02 오후 2:28:39] 접속 127.0.0.1 성공
+[2024-02-02 오후 2:28:39] Uploaded just_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 2:28:49] Kafka message sent for just_apple.png + {"SparkConfigAppName":"YourAppName","SparkConfigSetMaster":"YourMasterConfig","ObjectStoragePath":null,"SourceType":null,"FileName":null,"FileExtension":null,"ProcessETL":false,"CsvHeader":null,"CsvCustomHeader":null,"CsvDelimiter":null,"CsvEncodingType":null,"JsonParseSelectedKey":null,"TargetType":null,"TargetCatalog":null,"TargetDatabase":null,"TargetTable":null,"StartDateTime":null,"SparkConfigs":null}
+[2024-02-02 오후 2:28:49] Uploaded hi/hi_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 2:28:59] Kafka message sent for hi/hi_apple.png + {"SparkConfigAppName":"YourAppName","SparkConfigSetMaster":"YourMasterConfig","ObjectStoragePath":null,"SourceType":null,"FileName":null,"FileExtension":null,"ProcessETL":false,"CsvHeader":null,"CsvCustomHeader":null,"CsvDelimiter":null,"CsvEncodingType":null,"JsonParseSelectedKey":null,"TargetType":null,"TargetCatalog":null,"TargetDatabase":null,"TargetTable":null,"StartDateTime":null,"SparkConfigs":null}
+[2024-02-02 오후 2:28:59] 접속 종료 127.0.0.1: Offline 
+
+[2024-02-02 오후 2:29:03] 자동 접속 모드 전환
+[2024-02-02 오후 2:29:03] 접속 127.0.0.1 성공
+[2024-02-02 오후 2:29:04] Uploaded just_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 2:29:14] Kafka message sent for just_apple.png + {"SparkConfigAppName":"YourAppName","SparkConfigSetMaster":"YourMasterConfig","ObjectStoragePath":null,"SourceType":null,"FileName":null,"FileExtension":null,"ProcessETL":false,"CsvHeader":null,"CsvCustomHeader":null,"CsvDelimiter":null,"CsvEncodingType":null,"JsonParseSelectedKey":null,"TargetType":null,"TargetCatalog":null,"TargetDatabase":null,"TargetTable":null,"StartDateTime":null,"SparkConfigs":null}
+[2024-02-02 오후 2:29:14] Uploaded hi/hi_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 2:29:24] Kafka message sent for hi/hi_apple.png + {"SparkConfigAppName":"YourAppName","SparkConfigSetMaster":"YourMasterConfig","ObjectStoragePath":null,"SourceType":null,"FileName":null,"FileExtension":null,"ProcessETL":false,"CsvHeader":null,"CsvCustomHeader":null,"CsvDelimiter":null,"CsvEncodingType":null,"JsonParseSelectedKey":null,"TargetType":null,"TargetCatalog":null,"TargetDatabase":null,"TargetTable":null,"StartDateTime":null,"SparkConfigs":null}
+[2024-02-02 오후 2:29:24] 접속 종료 127.0.0.1: Offline 
+
+[2024-02-02 오후 2:32:52] 자동 접속 모드 전환
+[2024-02-02 오후 2:32:52] 접속 127.0.0.1 성공
+[2024-02-02 오후 2:32:52] Uploaded just_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 2:32:52] Kafka message sent for just_apple.png + {"SparkConfigAppName":"YourAppName","SparkConfigSetMaster":"YourMasterConfig","ObjectStoragePath":null,"SourceType":null,"FileName":null,"FileExtension":null,"ProcessETL":false,"CsvHeader":null,"CsvCustomHeader":null,"CsvDelimiter":null,"CsvEncodingType":null,"JsonParseSelectedKey":null,"TargetType":null,"TargetCatalog":null,"TargetDatabase":null,"TargetTable":null,"StartDateTime":null,"SparkConfigs":null}
+[2024-02-02 오후 2:32:52] Uploaded hi/hi_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 2:32:52] Kafka message sent for hi/hi_apple.png + {"SparkConfigAppName":"YourAppName","SparkConfigSetMaster":"YourMasterConfig","ObjectStoragePath":null,"SourceType":null,"FileName":null,"FileExtension":null,"ProcessETL":false,"CsvHeader":null,"CsvCustomHeader":null,"CsvDelimiter":null,"CsvEncodingType":null,"JsonParseSelectedKey":null,"TargetType":null,"TargetCatalog":null,"TargetDatabase":null,"TargetTable":null,"StartDateTime":null,"SparkConfigs":null}
+[2024-02-02 오후 2:32:52] 접속 종료 127.0.0.1: Offline 
+
+[2024-02-02 오후 2:33:00] 접속 127.0.0.1 성공
+[2024-02-02 오후 2:33:00] Uploaded just_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 2:33:00] Kafka message sent for just_apple.png + {"SparkConfigAppName":"YourAppName","SparkConfigSetMaster":"YourMasterConfig","ObjectStoragePath":null,"SourceType":null,"FileName":null,"FileExtension":null,"ProcessETL":false,"CsvHeader":null,"CsvCustomHeader":null,"CsvDelimiter":null,"CsvEncodingType":null,"JsonParseSelectedKey":null,"TargetType":null,"TargetCatalog":null,"TargetDatabase":null,"TargetTable":null,"StartDateTime":null,"SparkConfigs":null}
+[2024-02-02 오후 2:33:01] Uploaded hi/hi_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 2:33:01] Kafka message sent for hi/hi_apple.png + {"SparkConfigAppName":"YourAppName","SparkConfigSetMaster":"YourMasterConfig","ObjectStoragePath":null,"SourceType":null,"FileName":null,"FileExtension":null,"ProcessETL":false,"CsvHeader":null,"CsvCustomHeader":null,"CsvDelimiter":null,"CsvEncodingType":null,"JsonParseSelectedKey":null,"TargetType":null,"TargetCatalog":null,"TargetDatabase":null,"TargetTable":null,"StartDateTime":null,"SparkConfigs":null}
+[2024-02-02 오후 2:33:01] 접속 종료 127.0.0.1: Offline 
+
+[2024-02-02 오후 2:37:37] App. 강제 종료 !
+
+[2024-02-02 오후 2:37:44] System Loading...
+[2024-02-02 오후 2:37:44] System Loading 완료
+[2024-02-02 오후 2:37:44] StartSecTimer was successful
+[2024-02-02 오후 2:37:44] 자동 접속 모드 전환
+[2024-02-02 오후 2:37:44] 접속 127.0.0.1 성공
+[2024-02-02 오후 2:37:44] Uploaded just_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 2:37:55] Kafka message sent for just_apple.png + {"SparkConfigAppName":"YourAppName","SparkConfigSetMaster":"YourMasterConfig","ObjectStoragePath":null,"SourceType":null,"FileName":null,"FileExtension":null,"ProcessETL":false,"CsvHeader":null,"CsvCustomHeader":null,"CsvDelimiter":null,"CsvEncodingType":null,"JsonParseSelectedKey":null,"TargetType":null,"TargetCatalog":null,"TargetDatabase":null,"TargetTable":null,"StartDateTime":null,"SparkConfigs":null}
+[2024-02-02 오후 2:37:55] Uploaded hi/hi_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 2:38:01] 자동 접속 모드 전환
+[2024-02-02 오후 2:38:05] Kafka message sent for hi/hi_apple.png + {"SparkConfigAppName":"YourAppName","SparkConfigSetMaster":"YourMasterConfig","ObjectStoragePath":null,"SourceType":null,"FileName":null,"FileExtension":null,"ProcessETL":false,"CsvHeader":null,"CsvCustomHeader":null,"CsvDelimiter":null,"CsvEncodingType":null,"JsonParseSelectedKey":null,"TargetType":null,"TargetCatalog":null,"TargetDatabase":null,"TargetTable":null,"StartDateTime":null,"SparkConfigs":null}
+[2024-02-02 오후 2:38:05] 접속 종료 127.0.0.1: Offline 
+
+[2024-02-02 오후 2:38:24] App. 강제 종료 !
+
+[2024-02-02 오후 4:02:04] System Loading...
+[2024-02-02 오후 4:02:04] System Loading 완료
+[2024-02-02 오후 4:02:04] StartSecTimer was successful
+[2024-02-02 오후 4:02:04] 자동 접속 모드 전환
+[2024-02-02 오후 4:02:04] 접속 127.0.0.1 성공
+[2024-02-02 오후 4:02:04] Uploaded just_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 4:02:15] Kafka message sent for just_apple.png + {"SparkConfigAppName":"YourAppName","SparkConfigSetMaster":"YourMasterConfig","ObjectStoragePath":null,"SourceType":null,"FileName":null,"FileExtension":null,"ProcessETL":false,"CsvHeader":null,"CsvCustomHeader":null,"CsvDelimiter":null,"CsvEncodingType":null,"JsonParseSelectedKey":null,"TargetType":null,"TargetCatalog":null,"TargetDatabase":null,"TargetTable":null,"StartDateTime":null,"SparkConfigs":null}
+[2024-02-02 오후 4:02:15] Uploaded hi/hi_apple.png to bucket file-lake-consumer
+[2024-02-02 오후 4:02:25] Kafka message sent for hi/hi_apple.png + {"SparkConfigAppName":"YourAppName","SparkConfigSetMaster":"YourMasterConfig","ObjectStoragePath":null,"SourceType":null,"FileName":null,"FileExtension":null,"ProcessETL":false,"CsvHeader":null,"CsvCustomHeader":null,"CsvDelimiter":null,"CsvEncodingType":null,"JsonParseSelectedKey":null,"TargetType":null,"TargetCatalog":null,"TargetDatabase":null,"TargetTable":null,"StartDateTime":null,"SparkConfigs":null}
+[2024-02-02 오후 4:02:25] 접속 종료 127.0.0.1: Offline 
+
+[2024-02-02 오후 4:03:01] 접속 127.0.0.1 성공
+[2024-02-02 오후 4:03:36] App. 강제 종료 !
+
