@@ -609,7 +609,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmSFTPMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NILE Agent";
+            this.Text = "NILE Agent Object Transfer";
             this.TransparencyKey = System.Drawing.Color.WhiteSmoke;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmAgentMain_FormClosing);
             this.Load += new System.EventHandler(this.frmAgentMain_Load);

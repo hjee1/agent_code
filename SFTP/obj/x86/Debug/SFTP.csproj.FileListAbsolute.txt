@@ -146,7 +146,6 @@ C:\Users\ENGINEER\Documents\NILE\NILE_Agent\SFTP\bin\Debug\System.Buffers.xml
 C:\Users\ENGINEER\Documents\NILE\NILE_Agent\SFTP\bin\Debug\System.Memory.xml
 C:\Users\ENGINEER\Documents\NILE\NILE_Agent\SFTP\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\ENGINEER\Documents\NILE\NILE_Agent\SFTP\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\ENGINEER\Documents\NILE\NILE_Agent\SFTP\obj\x86\Debug\SFTP.csproj.AssemblyReference.cache
 C:\Users\ENGINEER\Documents\NILE\NILE_Agent\SFTP\obj\x86\Debug\SFTP.ETLPopUp.resources
 C:\Users\ENGINEER\Documents\NILE\NILE_Agent\SFTP\obj\x86\Debug\SFTP.frmSFTPMain.resources
 C:\Users\ENGINEER\Documents\NILE\NILE_Agent\SFTP\obj\x86\Debug\SFTP.Properties.Resources.resources
